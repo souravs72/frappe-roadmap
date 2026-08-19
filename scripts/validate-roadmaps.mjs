@@ -19,10 +19,33 @@ function fail(msg) {
   process.exitCode = 1
 }
 
+const BANNED_HOST = ['roadmap', 'sh'].join('.')
+const BANNED_HOST_RE = new RegExp(BANNED_HOST.replace('.', '\\.'), 'i')
+const SKIP_SCAN = new Set(['node_modules', 'dist', '.git'])
+
+function scanTree(dir) {
+  for (const name of fs.readdirSync(dir)) {
+    if (SKIP_SCAN.has(name)) continue
+    const p = path.join(dir, name)
+    const st = fs.statSync(p)
+    if (st.isDirectory()) {
+      scanTree(p)
+      continue
+    }
+    if (!/\.(md|mjs|js|ts|tsx|json|css|html|yml|yaml|txt)$/i.test(name)) continue
+    const raw = fs.readFileSync(p, 'utf8')
+    if (BANNED_HOST_RE.test(raw)) {
+      fail(`${path.relative(ROOT, p)}: forbidden third-party skill-map host`)
+    }
+  }
+}
+
 if (!fs.existsSync(BASE)) {
   fail(`Missing ${BASE}`)
   process.exit(1)
 }
+
+scanTree(ROOT)
 
 for (const slug of fs.readdirSync(BASE)) {
   const dir = path.join(BASE, slug)
@@ -54,15 +77,9 @@ for (const slug of fs.readdirSync(BASE)) {
   }
   for (const file of files) {
     const raw = fs.readFileSync(path.join(topicsDir, file), 'utf8')
-    if (/roadmap\.sh/i.test(raw)) {
-      fail(`${slug}/${file}: must not mention roadmap.sh`)
-    }
     const parsed = parseTopic(raw)
     for (const r of parsed.resources) {
       if (!TYPES.has(r.type)) fail(`${slug}/${file}: bad type @${r.type}@`)
-      if (/roadmap\.sh/i.test(r.url) || /roadmap\.sh/i.test(r.title)) {
-        fail(`${slug}/${file}: roadmap.sh links are not allowed`)
-      }
       if (r.type === 'internal') {
         if (!r.url.startsWith('#/')) fail(`${slug}/${file}: @internal@ must start with #/`)
         continue
