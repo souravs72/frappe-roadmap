@@ -2,7 +2,6 @@
 
 Interactive developer roadmaps for **Frappe v16**: bench, Framework, ERPNext, HRMS, LMS, Helpdesk, plus the Python / JavaScript / Vue / SQL / Redis / print / Linux / Docker skills those apps actually need.
 
-This is original content. It is **not** a copy of [roadmap.sh](https://roadmap.sh). See [NOTICE](NOTICE).
 
 ## Use it
 
