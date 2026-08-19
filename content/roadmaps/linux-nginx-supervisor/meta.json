@@ -1,0 +1,8 @@
+{
+  "slug": "linux-nginx-supervisor",
+  "title": "Linux, nginx, supervisor",
+  "type": "skill",
+  "version": "v16",
+  "summary": "The OS layer under a production bench.",
+  "order": 17
+}

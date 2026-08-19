@@ -1,0 +1,8 @@
+{
+  "slug": "javascript-for-frappe",
+  "title": "JavaScript for Frappe",
+  "type": "skill",
+  "version": "v16",
+  "summary": "Desk scripts, fetch, and the JS you need before Vue and Frappe UI.",
+  "order": 11
+}

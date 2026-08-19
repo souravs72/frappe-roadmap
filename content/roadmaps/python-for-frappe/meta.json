@@ -1,0 +1,8 @@
+{
+  "slug": "python-for-frappe",
+  "title": "Python for Frappe",
+  "type": "skill",
+  "version": "v16",
+  "summary": "The Python subset you actually use in controllers, hooks, and tests on Frappe v16.",
+  "order": 10
+}

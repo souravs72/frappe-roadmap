@@ -1,0 +1,146 @@
+{
+  "nodes": [
+    {
+      "id": "g-runtime",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 20
+      },
+      "data": {
+        "label": "Runtime"
+      }
+    },
+    {
+      "id": "python-314",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 56
+      },
+      "data": {
+        "label": "CPython for v16"
+      }
+    },
+    {
+      "id": "venv",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 56
+      },
+      "data": {
+        "label": "venv and bench env"
+      }
+    },
+    {
+      "id": "g-language",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 160
+      },
+      "data": {
+        "label": "Language"
+      }
+    },
+    {
+      "id": "syntax-stdlib",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 196
+      },
+      "data": {
+        "label": "Syntax and stdlib"
+      }
+    },
+    {
+      "id": "typing",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 196
+      },
+      "data": {
+        "label": "Type hints"
+      }
+    },
+    {
+      "id": "oop",
+      "type": "topic",
+      "position": {
+        "x": 492,
+        "y": 196
+      },
+      "data": {
+        "label": "Classes and Document"
+      }
+    },
+    {
+      "id": "g-frappe-python",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 300
+      },
+      "data": {
+        "label": "Frappe Python"
+      }
+    },
+    {
+      "id": "exceptions",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 336
+      },
+      "data": {
+        "label": "frappe.throw"
+      }
+    },
+    {
+      "id": "testing",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 336
+      },
+      "data": {
+        "label": "Frappe tests"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "python-314-venv",
+      "source": "python-314",
+      "target": "venv"
+    },
+    {
+      "id": "syntax-stdlib-typing",
+      "source": "syntax-stdlib",
+      "target": "typing"
+    },
+    {
+      "id": "typing-oop",
+      "source": "typing",
+      "target": "oop"
+    },
+    {
+      "id": "python-314-syntax-stdlib",
+      "source": "python-314",
+      "target": "syntax-stdlib"
+    },
+    {
+      "id": "exceptions-testing",
+      "source": "exceptions",
+      "target": "testing"
+    },
+    {
+      "id": "syntax-stdlib-exceptions",
+      "source": "syntax-stdlib",
+      "target": "exceptions"
+    }
+  ]
+}

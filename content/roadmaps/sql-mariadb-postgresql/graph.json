@@ -1,0 +1,87 @@
+{
+  "nodes": [
+    {
+      "id": "g-engines",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 20
+      },
+      "data": {
+        "label": "Engines"
+      }
+    },
+    {
+      "id": "mariadb",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 56
+      },
+      "data": {
+        "label": "MariaDB (default)"
+      }
+    },
+    {
+      "id": "postgresql",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 56
+      },
+      "data": {
+        "label": "PostgreSQL"
+      }
+    },
+    {
+      "id": "g-querying",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 160
+      },
+      "data": {
+        "label": "Querying"
+      }
+    },
+    {
+      "id": "frappe-db",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 196
+      },
+      "data": {
+        "label": "frappe.db API"
+      }
+    },
+    {
+      "id": "indexes",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 196
+      },
+      "data": {
+        "label": "Indexes and transactions"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "mariadb-postgresql",
+      "source": "mariadb",
+      "target": "postgresql"
+    },
+    {
+      "id": "frappe-db-indexes",
+      "source": "frappe-db",
+      "target": "indexes"
+    },
+    {
+      "id": "mariadb-frappe-db",
+      "source": "mariadb",
+      "target": "frappe-db"
+    }
+  ]
+}

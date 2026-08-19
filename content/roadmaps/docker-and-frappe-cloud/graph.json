@@ -1,0 +1,87 @@
+{
+  "nodes": [
+    {
+      "id": "g-containers",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 20
+      },
+      "data": {
+        "label": "Containers"
+      }
+    },
+    {
+      "id": "docker",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 56
+      },
+      "data": {
+        "label": "Docker basics"
+      }
+    },
+    {
+      "id": "frappe-docker",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 56
+      },
+      "data": {
+        "label": "frappe_docker"
+      }
+    },
+    {
+      "id": "g-hosted",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 160
+      },
+      "data": {
+        "label": "Hosted"
+      }
+    },
+    {
+      "id": "easy-install",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 196
+      },
+      "data": {
+        "label": "easy-install.py"
+      }
+    },
+    {
+      "id": "frappe-cloud",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 196
+      },
+      "data": {
+        "label": "Frappe Cloud"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "docker-frappe-docker",
+      "source": "docker",
+      "target": "frappe-docker"
+    },
+    {
+      "id": "easy-install-frappe-cloud",
+      "source": "easy-install",
+      "target": "frappe-cloud"
+    },
+    {
+      "id": "docker-easy-install",
+      "source": "docker",
+      "target": "easy-install"
+    }
+  ]
+}

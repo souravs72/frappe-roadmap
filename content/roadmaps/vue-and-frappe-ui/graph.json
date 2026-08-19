@@ -1,0 +1,87 @@
+{
+  "nodes": [
+    {
+      "id": "g-vue",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 20
+      },
+      "data": {
+        "label": "Vue"
+      }
+    },
+    {
+      "id": "vue3",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 56
+      },
+      "data": {
+        "label": "Vue 3 basics"
+      }
+    },
+    {
+      "id": "composition",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 56
+      },
+      "data": {
+        "label": "Composition API"
+      }
+    },
+    {
+      "id": "g-frappe-ui",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 160
+      },
+      "data": {
+        "label": "Frappe UI"
+      }
+    },
+    {
+      "id": "frappe-ui-lib",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 196
+      },
+      "data": {
+        "label": "Frappe UI library"
+      }
+    },
+    {
+      "id": "spa-on-frappe",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 196
+      },
+      "data": {
+        "label": "SPA on a Frappe site"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "vue3-composition",
+      "source": "vue3",
+      "target": "composition"
+    },
+    {
+      "id": "frappe-ui-lib-spa-on-frappe",
+      "source": "frappe-ui-lib",
+      "target": "spa-on-frappe"
+    },
+    {
+      "id": "vue3-frappe-ui-lib",
+      "source": "vue3",
+      "target": "frappe-ui-lib"
+    }
+  ]
+}

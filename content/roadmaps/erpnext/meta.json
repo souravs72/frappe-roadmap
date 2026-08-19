@@ -1,0 +1,8 @@
+{
+  "slug": "erpnext",
+  "title": "ERPNext",
+  "type": "app",
+  "version": "v16",
+  "summary": "Developer map of ERPNext v16 modules, ledgers, and override points.",
+  "order": 30
+}

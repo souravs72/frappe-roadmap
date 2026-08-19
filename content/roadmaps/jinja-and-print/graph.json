@@ -1,0 +1,87 @@
+{
+  "nodes": [
+    {
+      "id": "g-templates",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 20
+      },
+      "data": {
+        "label": "Templates"
+      }
+    },
+    {
+      "id": "jinja",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 56
+      },
+      "data": {
+        "label": "Jinja syntax"
+      }
+    },
+    {
+      "id": "print-formats",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 56
+      },
+      "data": {
+        "label": "Print Format DocType"
+      }
+    },
+    {
+      "id": "g-pdf",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 160
+      },
+      "data": {
+        "label": "PDF"
+      }
+    },
+    {
+      "id": "wkhtmltopdf",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 196
+      },
+      "data": {
+        "label": "wkhtmltopdf"
+      }
+    },
+    {
+      "id": "print-designer",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 196
+      },
+      "data": {
+        "label": "Print Designer"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "jinja-print-formats",
+      "source": "jinja",
+      "target": "print-formats"
+    },
+    {
+      "id": "wkhtmltopdf-print-designer",
+      "source": "wkhtmltopdf",
+      "target": "print-designer"
+    },
+    {
+      "id": "jinja-wkhtmltopdf",
+      "source": "jinja",
+      "target": "wkhtmltopdf"
+    }
+  ]
+}

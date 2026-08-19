@@ -1,0 +1,8 @@
+{
+  "slug": "docker-and-frappe-cloud",
+  "title": "Docker and Frappe Cloud",
+  "type": "skill",
+  "version": "v16",
+  "summary": "Containers, easy-install, and managed hosting.",
+  "order": 18
+}

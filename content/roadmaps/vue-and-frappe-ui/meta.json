@@ -1,0 +1,8 @@
+{
+  "slug": "vue-and-frappe-ui",
+  "title": "Vue and Frappe UI",
+  "type": "skill",
+  "version": "v16",
+  "summary": "Vue 3 + Frappe UI as used by Helpdesk, HRMS frontend, and modern portals.",
+  "order": 12
+}

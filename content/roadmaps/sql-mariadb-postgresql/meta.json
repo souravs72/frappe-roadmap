@@ -1,0 +1,8 @@
+{
+  "slug": "sql-mariadb-postgresql",
+  "title": "SQL for Frappe",
+  "type": "skill",
+  "version": "v16",
+  "summary": "MariaDB and PostgreSQL as Frappe actually uses them.",
+  "order": 13
+}

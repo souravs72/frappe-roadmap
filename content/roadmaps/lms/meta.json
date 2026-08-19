@@ -1,0 +1,8 @@
+{
+  "slug": "lms",
+  "title": "Frappe LMS",
+  "type": "app",
+  "version": "v16",
+  "summary": "Courses, batches, live class, and assessments on Frappe.",
+  "order": 32
+}

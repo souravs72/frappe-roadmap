@@ -1,0 +1,87 @@
+{
+  "nodes": [
+    {
+      "id": "g-os",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 20
+      },
+      "data": {
+        "label": "OS"
+      }
+    },
+    {
+      "id": "linux-cli",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 56
+      },
+      "data": {
+        "label": "Linux CLI"
+      }
+    },
+    {
+      "id": "nginx",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 56
+      },
+      "data": {
+        "label": "nginx"
+      }
+    },
+    {
+      "id": "g-process",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 160
+      },
+      "data": {
+        "label": "Process"
+      }
+    },
+    {
+      "id": "supervisor",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 196
+      },
+      "data": {
+        "label": "supervisor / systemd"
+      }
+    },
+    {
+      "id": "ssl",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 196
+      },
+      "data": {
+        "label": "TLS"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "linux-cli-nginx",
+      "source": "linux-cli",
+      "target": "nginx"
+    },
+    {
+      "id": "supervisor-ssl",
+      "source": "supervisor",
+      "target": "ssl"
+    },
+    {
+      "id": "linux-cli-supervisor",
+      "source": "linux-cli",
+      "target": "supervisor"
+    }
+  ]
+}

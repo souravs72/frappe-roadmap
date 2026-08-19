@@ -1,0 +1,312 @@
+{
+  "nodes": [
+    {
+      "id": "g-orientation",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 20
+      },
+      "data": {
+        "label": "Orientation"
+      }
+    },
+    {
+      "id": "what-is-erpnext",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 56
+      },
+      "data": {
+        "label": "What ERPNext is"
+      }
+    },
+    {
+      "id": "modules-moved-out",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 56
+      },
+      "data": {
+        "label": "Modules that left core"
+      }
+    },
+    {
+      "id": "g-ledgers",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 160
+      },
+      "data": {
+        "label": "Ledgers"
+      }
+    },
+    {
+      "id": "accounting",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 196
+      },
+      "data": {
+        "label": "Accounting / GL"
+      }
+    },
+    {
+      "id": "stock",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 196
+      },
+      "data": {
+        "label": "Stock ledger"
+      }
+    },
+    {
+      "id": "g-flows",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 300
+      },
+      "data": {
+        "label": "Flows"
+      }
+    },
+    {
+      "id": "selling",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 336
+      },
+      "data": {
+        "label": "Selling"
+      }
+    },
+    {
+      "id": "buying",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 336
+      },
+      "data": {
+        "label": "Buying"
+      }
+    },
+    {
+      "id": "manufacturing",
+      "type": "topic",
+      "position": {
+        "x": 492,
+        "y": 336
+      },
+      "data": {
+        "label": "Manufacturing"
+      }
+    },
+    {
+      "id": "crm",
+      "type": "topic",
+      "position": {
+        "x": 730,
+        "y": 336
+      },
+      "data": {
+        "label": "CRM"
+      }
+    },
+    {
+      "id": "g-more-modules",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 440
+      },
+      "data": {
+        "label": "More modules"
+      }
+    },
+    {
+      "id": "projects",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 476
+      },
+      "data": {
+        "label": "Projects"
+      }
+    },
+    {
+      "id": "assets",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 476
+      },
+      "data": {
+        "label": "Assets"
+      }
+    },
+    {
+      "id": "quality",
+      "type": "topic",
+      "position": {
+        "x": 492,
+        "y": 476
+      },
+      "data": {
+        "label": "Quality"
+      }
+    },
+    {
+      "id": "website-ecom",
+      "type": "topic",
+      "position": {
+        "x": 730,
+        "y": 476
+      },
+      "data": {
+        "label": "Website and e-commerce"
+      }
+    },
+    {
+      "id": "g-customization",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 580
+      },
+      "data": {
+        "label": "Customization"
+      }
+    },
+    {
+      "id": "customization",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 616
+      },
+      "data": {
+        "label": "Customize Form and Client scripts"
+      }
+    },
+    {
+      "id": "overrides",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 616
+      },
+      "data": {
+        "label": "Hooks and class extensions"
+      }
+    },
+    {
+      "id": "regional",
+      "type": "topic",
+      "position": {
+        "x": 492,
+        "y": 616
+      },
+      "data": {
+        "label": "Regional"
+      }
+    },
+    {
+      "id": "integrations",
+      "type": "topic",
+      "position": {
+        "x": 730,
+        "y": 616
+      },
+      "data": {
+        "label": "Integrations"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "what-is-erpnext-modules-moved-out",
+      "source": "what-is-erpnext",
+      "target": "modules-moved-out"
+    },
+    {
+      "id": "accounting-stock",
+      "source": "accounting",
+      "target": "stock"
+    },
+    {
+      "id": "what-is-erpnext-accounting",
+      "source": "what-is-erpnext",
+      "target": "accounting"
+    },
+    {
+      "id": "selling-buying",
+      "source": "selling",
+      "target": "buying"
+    },
+    {
+      "id": "buying-manufacturing",
+      "source": "buying",
+      "target": "manufacturing"
+    },
+    {
+      "id": "manufacturing-crm",
+      "source": "manufacturing",
+      "target": "crm"
+    },
+    {
+      "id": "accounting-selling",
+      "source": "accounting",
+      "target": "selling"
+    },
+    {
+      "id": "projects-assets",
+      "source": "projects",
+      "target": "assets"
+    },
+    {
+      "id": "assets-quality",
+      "source": "assets",
+      "target": "quality"
+    },
+    {
+      "id": "quality-website-ecom",
+      "source": "quality",
+      "target": "website-ecom"
+    },
+    {
+      "id": "selling-projects",
+      "source": "selling",
+      "target": "projects"
+    },
+    {
+      "id": "customization-overrides",
+      "source": "customization",
+      "target": "overrides"
+    },
+    {
+      "id": "overrides-regional",
+      "source": "overrides",
+      "target": "regional"
+    },
+    {
+      "id": "regional-integrations",
+      "source": "regional",
+      "target": "integrations"
+    },
+    {
+      "id": "projects-customization",
+      "source": "projects",
+      "target": "customization"
+    }
+  ]
+}

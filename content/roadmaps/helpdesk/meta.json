@@ -1,0 +1,8 @@
+{
+  "slug": "helpdesk",
+  "title": "Frappe Helpdesk",
+  "type": "app",
+  "version": "v16",
+  "summary": "Agent and customer portals, SLA, KB, and the Vue desk SPA.",
+  "order": 33
+}

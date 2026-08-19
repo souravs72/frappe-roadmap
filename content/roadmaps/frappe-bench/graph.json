@@ -1,0 +1,205 @@
+{
+  "nodes": [
+    {
+      "id": "g-concepts",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 20
+      },
+      "data": {
+        "label": "Concepts"
+      }
+    },
+    {
+      "id": "what-is-bench",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 56
+      },
+      "data": {
+        "label": "What bench is"
+      }
+    },
+    {
+      "id": "install-develop",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 56
+      },
+      "data": {
+        "label": "Development install"
+      }
+    },
+    {
+      "id": "g-sites-and-apps",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 160
+      },
+      "data": {
+        "label": "Sites and apps"
+      }
+    },
+    {
+      "id": "sites",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 196
+      },
+      "data": {
+        "label": "Sites"
+      }
+    },
+    {
+      "id": "apps",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 196
+      },
+      "data": {
+        "label": "get-app and install-app"
+      }
+    },
+    {
+      "id": "developer-mode",
+      "type": "topic",
+      "position": {
+        "x": 492,
+        "y": 196
+      },
+      "data": {
+        "label": "developer_mode"
+      }
+    },
+    {
+      "id": "g-processes",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 300
+      },
+      "data": {
+        "label": "Processes"
+      }
+    },
+    {
+      "id": "bench-start",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 336
+      },
+      "data": {
+        "label": "bench start"
+      }
+    },
+    {
+      "id": "workers",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 336
+      },
+      "data": {
+        "label": "Workers and scheduler"
+      }
+    },
+    {
+      "id": "migrate-backup",
+      "type": "topic",
+      "position": {
+        "x": 492,
+        "y": 336
+      },
+      "data": {
+        "label": "migrate and backup"
+      }
+    },
+    {
+      "id": "g-production",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 440
+      },
+      "data": {
+        "label": "Production"
+      }
+    },
+    {
+      "id": "nginx-supervisor",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 476
+      },
+      "data": {
+        "label": "nginx and supervisor"
+      }
+    },
+    {
+      "id": "bench-commands",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 476
+      },
+      "data": {
+        "label": "Everyday commands"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "what-is-bench-install-develop",
+      "source": "what-is-bench",
+      "target": "install-develop"
+    },
+    {
+      "id": "sites-apps",
+      "source": "sites",
+      "target": "apps"
+    },
+    {
+      "id": "apps-developer-mode",
+      "source": "apps",
+      "target": "developer-mode"
+    },
+    {
+      "id": "what-is-bench-sites",
+      "source": "what-is-bench",
+      "target": "sites"
+    },
+    {
+      "id": "bench-start-workers",
+      "source": "bench-start",
+      "target": "workers"
+    },
+    {
+      "id": "workers-migrate-backup",
+      "source": "workers",
+      "target": "migrate-backup"
+    },
+    {
+      "id": "sites-bench-start",
+      "source": "sites",
+      "target": "bench-start"
+    },
+    {
+      "id": "nginx-supervisor-bench-commands",
+      "source": "nginx-supervisor",
+      "target": "bench-commands"
+    },
+    {
+      "id": "bench-start-nginx-supervisor",
+      "source": "bench-start",
+      "target": "nginx-supervisor"
+    }
+  ]
+}

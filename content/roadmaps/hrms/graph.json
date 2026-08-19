@@ -1,0 +1,162 @@
+{
+  "nodes": [
+    {
+      "id": "g-setup",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 20
+      },
+      "data": {
+        "label": "Setup"
+      }
+    },
+    {
+      "id": "install-hrms",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 56
+      },
+      "data": {
+        "label": "Install on bench"
+      }
+    },
+    {
+      "id": "g-domain",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 160
+      },
+      "data": {
+        "label": "Domain"
+      }
+    },
+    {
+      "id": "employee-lifecycle",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 196
+      },
+      "data": {
+        "label": "Employee lifecycle"
+      }
+    },
+    {
+      "id": "leave-attendance",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 196
+      },
+      "data": {
+        "label": "Leave and attendance"
+      }
+    },
+    {
+      "id": "expenses",
+      "type": "topic",
+      "position": {
+        "x": 492,
+        "y": 196
+      },
+      "data": {
+        "label": "Expenses and advances"
+      }
+    },
+    {
+      "id": "appraisals",
+      "type": "topic",
+      "position": {
+        "x": 730,
+        "y": 196
+      },
+      "data": {
+        "label": "Performance"
+      }
+    },
+    {
+      "id": "payroll",
+      "type": "topic",
+      "position": {
+        "x": 968,
+        "y": 196
+      },
+      "data": {
+        "label": "Payroll and tax"
+      }
+    },
+    {
+      "id": "g-product",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 300
+      },
+      "data": {
+        "label": "Product"
+      }
+    },
+    {
+      "id": "pwa",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 336
+      },
+      "data": {
+        "label": "Mobile / PWA"
+      }
+    },
+    {
+      "id": "customize-hrms",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 336
+      },
+      "data": {
+        "label": "Customization"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "employee-lifecycle-leave-attendance",
+      "source": "employee-lifecycle",
+      "target": "leave-attendance"
+    },
+    {
+      "id": "leave-attendance-expenses",
+      "source": "leave-attendance",
+      "target": "expenses"
+    },
+    {
+      "id": "expenses-appraisals",
+      "source": "expenses",
+      "target": "appraisals"
+    },
+    {
+      "id": "appraisals-payroll",
+      "source": "appraisals",
+      "target": "payroll"
+    },
+    {
+      "id": "install-hrms-employee-lifecycle",
+      "source": "install-hrms",
+      "target": "employee-lifecycle"
+    },
+    {
+      "id": "pwa-customize-hrms",
+      "source": "pwa",
+      "target": "customize-hrms"
+    },
+    {
+      "id": "employee-lifecycle-pwa",
+      "source": "employee-lifecycle",
+      "target": "pwa"
+    }
+  ]
+}

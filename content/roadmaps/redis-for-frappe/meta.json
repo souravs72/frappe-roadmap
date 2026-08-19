@@ -1,0 +1,8 @@
+{
+  "slug": "redis-for-frappe",
+  "title": "Redis for Frappe",
+  "type": "skill",
+  "version": "v16",
+  "summary": "Cache, RQ queues, and socket.io pub/sub on a bench.",
+  "order": 14
+}

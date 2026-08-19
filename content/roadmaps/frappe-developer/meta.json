@@ -1,0 +1,8 @@
+{
+  "slug": "frappe-developer",
+  "title": "Frappe Developer",
+  "type": "role",
+  "version": "v16",
+  "summary": "The sequenced path from Linux and Python to shipping custom apps on Frappe v16.",
+  "order": 1
+}

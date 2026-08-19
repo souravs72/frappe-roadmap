@@ -1,0 +1,87 @@
+{
+  "nodes": [
+    {
+      "id": "g-roles",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 20
+      },
+      "data": {
+        "label": "Roles"
+      }
+    },
+    {
+      "id": "redis-basics",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 56
+      },
+      "data": {
+        "label": "What Redis stores"
+      }
+    },
+    {
+      "id": "cache",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 56
+      },
+      "data": {
+        "label": "Cache"
+      }
+    },
+    {
+      "id": "g-jobs-and-realtime",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 160
+      },
+      "data": {
+        "label": "Jobs and realtime"
+      }
+    },
+    {
+      "id": "queues",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 196
+      },
+      "data": {
+        "label": "RQ queues"
+      }
+    },
+    {
+      "id": "pubsub",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 196
+      },
+      "data": {
+        "label": "Pub/sub for socket.io"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "redis-basics-cache",
+      "source": "redis-basics",
+      "target": "cache"
+    },
+    {
+      "id": "queues-pubsub",
+      "source": "queues",
+      "target": "pubsub"
+    },
+    {
+      "id": "redis-basics-queues",
+      "source": "redis-basics",
+      "target": "queues"
+    }
+  ]
+}

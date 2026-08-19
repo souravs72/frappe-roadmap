@@ -1,0 +1,8 @@
+{
+  "slug": "frappe-bench",
+  "title": "Frappe Bench",
+  "type": "app",
+  "version": "v16",
+  "summary": "CLI, sites, apps, workers, and production layout.",
+  "order": 20
+}

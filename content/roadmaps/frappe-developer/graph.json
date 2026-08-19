@@ -1,0 +1,232 @@
+{
+  "nodes": [
+    {
+      "id": "g-foundations",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 20
+      },
+      "data": {
+        "label": "Foundations"
+      }
+    },
+    {
+      "id": "git-linux",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 56
+      },
+      "data": {
+        "label": "Git and Linux"
+      }
+    },
+    {
+      "id": "python",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 56
+      },
+      "data": {
+        "label": "Python for Frappe"
+      }
+    },
+    {
+      "id": "javascript-vue",
+      "type": "topic",
+      "position": {
+        "x": 492,
+        "y": 56
+      },
+      "data": {
+        "label": "JavaScript and Vue"
+      }
+    },
+    {
+      "id": "g-data-and-runtime",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 160
+      },
+      "data": {
+        "label": "Data and runtime"
+      }
+    },
+    {
+      "id": "sql",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 196
+      },
+      "data": {
+        "label": "SQL: MariaDB and PostgreSQL"
+      }
+    },
+    {
+      "id": "redis",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 196
+      },
+      "data": {
+        "label": "Redis"
+      }
+    },
+    {
+      "id": "g-frappe-core",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 300
+      },
+      "data": {
+        "label": "Frappe core"
+      }
+    },
+    {
+      "id": "bench",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 336
+      },
+      "data": {
+        "label": "Bench"
+      }
+    },
+    {
+      "id": "framework",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 336
+      },
+      "data": {
+        "label": "Frappe Framework"
+      }
+    },
+    {
+      "id": "g-official-apps",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 440
+      },
+      "data": {
+        "label": "Official apps"
+      }
+    },
+    {
+      "id": "erpnext",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 476
+      },
+      "data": {
+        "label": "ERPNext"
+      }
+    },
+    {
+      "id": "hrms-lms-helpdesk",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 476
+      },
+      "data": {
+        "label": "HRMS, LMS, Helpdesk"
+      }
+    },
+    {
+      "id": "g-ship-it",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 580
+      },
+      "data": {
+        "label": "Ship it"
+      }
+    },
+    {
+      "id": "print-jinja",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 616
+      },
+      "data": {
+        "label": "Jinja and print"
+      }
+    },
+    {
+      "id": "devops",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 616
+      },
+      "data": {
+        "label": "Production and Docker"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "git-linux-python",
+      "source": "git-linux",
+      "target": "python"
+    },
+    {
+      "id": "python-javascript-vue",
+      "source": "python",
+      "target": "javascript-vue"
+    },
+    {
+      "id": "sql-redis",
+      "source": "sql",
+      "target": "redis"
+    },
+    {
+      "id": "git-linux-sql",
+      "source": "git-linux",
+      "target": "sql"
+    },
+    {
+      "id": "bench-framework",
+      "source": "bench",
+      "target": "framework"
+    },
+    {
+      "id": "sql-bench",
+      "source": "sql",
+      "target": "bench"
+    },
+    {
+      "id": "erpnext-hrms-lms-helpdesk",
+      "source": "erpnext",
+      "target": "hrms-lms-helpdesk"
+    },
+    {
+      "id": "bench-erpnext",
+      "source": "bench",
+      "target": "erpnext"
+    },
+    {
+      "id": "print-jinja-devops",
+      "source": "print-jinja",
+      "target": "devops"
+    },
+    {
+      "id": "erpnext-print-jinja",
+      "source": "erpnext",
+      "target": "print-jinja"
+    }
+  ]
+}

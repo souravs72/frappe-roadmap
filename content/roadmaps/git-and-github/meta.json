@@ -1,0 +1,8 @@
+{
+  "slug": "git-and-github",
+  "title": "Git and GitHub",
+  "type": "skill",
+  "version": "v16",
+  "summary": "Branching on version-16, PRs, and how Frappe apps are contributed.",
+  "order": 16
+}

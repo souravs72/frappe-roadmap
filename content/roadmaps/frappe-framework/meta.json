@@ -1,0 +1,8 @@
+{
+  "slug": "frappe-framework",
+  "title": "Frappe Framework",
+  "type": "app",
+  "version": "v16",
+  "summary": "DocTypes, ORM, hooks, Desk, REST, permissions, jobs, and v16 changes.",
+  "order": 21
+}

@@ -1,0 +1,45 @@
+@import 'tailwindcss';
+@import '@xyflow/react/dist/style.css';
+
+:root {
+  color-scheme: light dark;
+  --bg: #0f1419;
+  --panel: #1a222c;
+  --border: #2c3a48;
+  --text: #e8eef4;
+  --muted: #9aa8b5;
+  --accent: #ed8b00;
+  --accent-2: #2490ef;
+  --done: #2ecc71;
+  font-family: 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f6f3ee;
+    --panel: #ffffff;
+    --border: #d9d1c7;
+    --text: #1c1917;
+    --muted: #5c564e;
+  }
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+  background: var(--bg);
+  color: var(--text);
+}
+
+#root {
+  width: 100%;
+  max-width: none;
+  text-align: left;
+  border: 0;
+}
+
+a {
+  color: var(--accent-2);
+}

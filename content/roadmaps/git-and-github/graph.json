@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": "g-git",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 20
+      },
+      "data": {
+        "label": "Git"
+      }
+    },
+    {
+      "id": "git-basics",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 56
+      },
+      "data": {
+        "label": "Commit, diff, stash"
+      }
+    },
+    {
+      "id": "branching",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 56
+      },
+      "data": {
+        "label": "version-16 branches"
+      }
+    },
+    {
+      "id": "g-github",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 160
+      },
+      "data": {
+        "label": "GitHub"
+      }
+    },
+    {
+      "id": "prs",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 196
+      },
+      "data": {
+        "label": "Pull requests"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "git-basics-branching",
+      "source": "git-basics",
+      "target": "branching"
+    },
+    {
+      "id": "git-basics-prs",
+      "source": "git-basics",
+      "target": "prs"
+    }
+  ]
+}

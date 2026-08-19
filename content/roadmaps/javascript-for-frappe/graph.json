@@ -1,0 +1,87 @@
+{
+  "nodes": [
+    {
+      "id": "g-language",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 20
+      },
+      "data": {
+        "label": "Language"
+      }
+    },
+    {
+      "id": "es-modules",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 56
+      },
+      "data": {
+        "label": "ES modules and bundling"
+      }
+    },
+    {
+      "id": "async",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 56
+      },
+      "data": {
+        "label": "Promises and async/await"
+      }
+    },
+    {
+      "id": "g-desk",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 160
+      },
+      "data": {
+        "label": "Desk"
+      }
+    },
+    {
+      "id": "form-scripts",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 196
+      },
+      "data": {
+        "label": "Form and list scripts"
+      }
+    },
+    {
+      "id": "desk-js",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 196
+      },
+      "data": {
+        "label": "frappe namespace"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "es-modules-async",
+      "source": "es-modules",
+      "target": "async"
+    },
+    {
+      "id": "form-scripts-desk-js",
+      "source": "form-scripts",
+      "target": "desk-js"
+    },
+    {
+      "id": "es-modules-form-scripts",
+      "source": "es-modules",
+      "target": "form-scripts"
+    }
+  ]
+}

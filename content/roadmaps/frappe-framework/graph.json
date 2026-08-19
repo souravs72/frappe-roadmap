@@ -1,0 +1,467 @@
+{
+  "nodes": [
+    {
+      "id": "g-model",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 20
+      },
+      "data": {
+        "label": "Model"
+      }
+    },
+    {
+      "id": "architecture",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 56
+      },
+      "data": {
+        "label": "Architecture"
+      }
+    },
+    {
+      "id": "doctypes",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 56
+      },
+      "data": {
+        "label": "DocTypes"
+      }
+    },
+    {
+      "id": "fields-naming",
+      "type": "topic",
+      "position": {
+        "x": 492,
+        "y": 56
+      },
+      "data": {
+        "label": "Fields and naming"
+      }
+    },
+    {
+      "id": "document-lifecycle",
+      "type": "topic",
+      "position": {
+        "x": 730,
+        "y": 56
+      },
+      "data": {
+        "label": "Document lifecycle"
+      }
+    },
+    {
+      "id": "g-python",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 160
+      },
+      "data": {
+        "label": "Python"
+      }
+    },
+    {
+      "id": "controllers",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 196
+      },
+      "data": {
+        "label": "Controllers"
+      }
+    },
+    {
+      "id": "orm",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 196
+      },
+      "data": {
+        "label": "ORM and frappe.db"
+      }
+    },
+    {
+      "id": "hooks",
+      "type": "topic",
+      "position": {
+        "x": 492,
+        "y": 196
+      },
+      "data": {
+        "label": "hooks.py"
+      }
+    },
+    {
+      "id": "extend-doctype-class",
+      "type": "topic",
+      "position": {
+        "x": 730,
+        "y": 196
+      },
+      "data": {
+        "label": "extend_doctype_class"
+      }
+    },
+    {
+      "id": "g-security",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 300
+      },
+      "data": {
+        "label": "Security"
+      }
+    },
+    {
+      "id": "permissions",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 336
+      },
+      "data": {
+        "label": "Users and permissions"
+      }
+    },
+    {
+      "id": "permission-types",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 336
+      },
+      "data": {
+        "label": "Custom permission types (v16)"
+      }
+    },
+    {
+      "id": "whitelist",
+      "type": "topic",
+      "position": {
+        "x": 492,
+        "y": 336
+      },
+      "data": {
+        "label": "whitelisted methods"
+      }
+    },
+    {
+      "id": "g-ui",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 440
+      },
+      "data": {
+        "label": "UI"
+      }
+    },
+    {
+      "id": "desk",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 476
+      },
+      "data": {
+        "label": "Desk"
+      }
+    },
+    {
+      "id": "form-list-js",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 476
+      },
+      "data": {
+        "label": "Form and list JS"
+      }
+    },
+    {
+      "id": "website",
+      "type": "topic",
+      "position": {
+        "x": 492,
+        "y": 476
+      },
+      "data": {
+        "label": "Website"
+      }
+    },
+    {
+      "id": "boot",
+      "type": "topic",
+      "position": {
+        "x": 730,
+        "y": 476
+      },
+      "data": {
+        "label": "bootinfo"
+      }
+    },
+    {
+      "id": "g-apis-and-jobs",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 580
+      },
+      "data": {
+        "label": "APIs and jobs"
+      }
+    },
+    {
+      "id": "rest",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 616
+      },
+      "data": {
+        "label": "REST and RPC"
+      }
+    },
+    {
+      "id": "background-jobs",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 616
+      },
+      "data": {
+        "label": "Background jobs"
+      }
+    },
+    {
+      "id": "realtime",
+      "type": "topic",
+      "position": {
+        "x": 492,
+        "y": 616
+      },
+      "data": {
+        "label": "Realtime"
+      }
+    },
+    {
+      "id": "oauth",
+      "type": "topic",
+      "position": {
+        "x": 730,
+        "y": 616
+      },
+      "data": {
+        "label": "OAuth2"
+      }
+    },
+    {
+      "id": "g-ship-quality",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 720
+      },
+      "data": {
+        "label": "Ship quality"
+      }
+    },
+    {
+      "id": "translations",
+      "type": "topic",
+      "position": {
+        "x": 16,
+        "y": 756
+      },
+      "data": {
+        "label": "Translations"
+      }
+    },
+    {
+      "id": "testing",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 756
+      },
+      "data": {
+        "label": "Testing"
+      }
+    },
+    {
+      "id": "fixtures-patches",
+      "type": "topic",
+      "position": {
+        "x": 492,
+        "y": 756
+      },
+      "data": {
+        "label": "Fixtures and patches"
+      }
+    },
+    {
+      "id": "virtual-doctypes",
+      "type": "topic",
+      "position": {
+        "x": 730,
+        "y": 756
+      },
+      "data": {
+        "label": "Virtual DocTypes"
+      }
+    },
+    {
+      "id": "reports",
+      "type": "topic",
+      "position": {
+        "x": 968,
+        "y": 756
+      },
+      "data": {
+        "label": "Reports"
+      }
+    },
+    {
+      "id": "v16-migration",
+      "type": "topic",
+      "position": {
+        "x": 1206,
+        "y": 756
+      },
+      "data": {
+        "label": "v16 migration"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "architecture-doctypes",
+      "source": "architecture",
+      "target": "doctypes"
+    },
+    {
+      "id": "doctypes-fields-naming",
+      "source": "doctypes",
+      "target": "fields-naming"
+    },
+    {
+      "id": "fields-naming-document-lifecycle",
+      "source": "fields-naming",
+      "target": "document-lifecycle"
+    },
+    {
+      "id": "controllers-orm",
+      "source": "controllers",
+      "target": "orm"
+    },
+    {
+      "id": "orm-hooks",
+      "source": "orm",
+      "target": "hooks"
+    },
+    {
+      "id": "hooks-extend-doctype-class",
+      "source": "hooks",
+      "target": "extend-doctype-class"
+    },
+    {
+      "id": "architecture-controllers",
+      "source": "architecture",
+      "target": "controllers"
+    },
+    {
+      "id": "permissions-permission-types",
+      "source": "permissions",
+      "target": "permission-types"
+    },
+    {
+      "id": "permission-types-whitelist",
+      "source": "permission-types",
+      "target": "whitelist"
+    },
+    {
+      "id": "controllers-permissions",
+      "source": "controllers",
+      "target": "permissions"
+    },
+    {
+      "id": "desk-form-list-js",
+      "source": "desk",
+      "target": "form-list-js"
+    },
+    {
+      "id": "form-list-js-website",
+      "source": "form-list-js",
+      "target": "website"
+    },
+    {
+      "id": "website-boot",
+      "source": "website",
+      "target": "boot"
+    },
+    {
+      "id": "permissions-desk",
+      "source": "permissions",
+      "target": "desk"
+    },
+    {
+      "id": "rest-background-jobs",
+      "source": "rest",
+      "target": "background-jobs"
+    },
+    {
+      "id": "background-jobs-realtime",
+      "source": "background-jobs",
+      "target": "realtime"
+    },
+    {
+      "id": "realtime-oauth",
+      "source": "realtime",
+      "target": "oauth"
+    },
+    {
+      "id": "desk-rest",
+      "source": "desk",
+      "target": "rest"
+    },
+    {
+      "id": "translations-testing",
+      "source": "translations",
+      "target": "testing"
+    },
+    {
+      "id": "testing-fixtures-patches",
+      "source": "testing",
+      "target": "fixtures-patches"
+    },
+    {
+      "id": "fixtures-patches-virtual-doctypes",
+      "source": "fixtures-patches",
+      "target": "virtual-doctypes"
+    },
+    {
+      "id": "virtual-doctypes-reports",
+      "source": "virtual-doctypes",
+      "target": "reports"
+    },
+    {
+      "id": "reports-v16-migration",
+      "source": "reports",
+      "target": "v16-migration"
+    },
+    {
+      "id": "rest-translations",
+      "source": "rest",
+      "target": "translations"
+    }
+  ]
+}
