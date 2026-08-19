@@ -2,17 +2,10 @@ NOTICE
 ======
 
 frappe-roadmap is an independent community learning project. It is not
-affiliated with, endorsed by, or sponsored by Frappe Technologies Pvt Ltd or
-roadmap.sh.
+affiliated with, endorsed by, or sponsored by Frappe Technologies Pvt Ltd.
 
 Frappe, ERPNext, and related marks belong to their owners. Official docs:
 https://frappe.io/ and https://docs.frappe.io/
-
-This repository does not copy text, images, JSON maps, or source from
-https://github.com/kamranahmedse/developer-roadmap (also published as
-nilbuild/developer-roadmap). Their license forbids republishing that material.
-Generic skill pages here are original and Frappe-specific; they may link to
-https://roadmap.sh/ as an external resource only.
 
 Code in this repository is MIT licensed (see LICENSE). Learning content is
 original and licensed under the same MIT terms unless a file says otherwise.
