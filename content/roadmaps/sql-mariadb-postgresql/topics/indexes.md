@@ -1,7 +1,8 @@
 # Indexes and transactions
 
-DocType JSON can declare indexes. v16 tightened some commit-in-hook behavior.
+Declare indexes in DocType JSON. v16 tightened commit-in-hook behaviour; read the migration wiki before copying v13 db.commit() patterns.
 
 ## Learn
 
-- @github@ Migrating to version 16 | https://github.com/frappe/frappe/wiki/Migrating-to-version-16
+- @official@ Database API | https://docs.frappe.io/framework/user/en/api/database
+- @official@ Migrating to version 16 | https://github.com/frappe/frappe/wiki/Migrating-to-version-16

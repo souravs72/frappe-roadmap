@@ -1,14 +1,14 @@
 {
   "nodes": [
     {
-      "id": "g-concepts",
+      "id": "g-1-concepts",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 20
       },
       "data": {
-        "label": "Concepts"
+        "label": "1. Concepts"
       }
     },
     {
@@ -34,14 +34,14 @@
       }
     },
     {
-      "id": "g-sites-and-apps",
+      "id": "g-2-sites-and-apps",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 160
       },
       "data": {
-        "label": "Sites and apps"
+        "label": "2. Sites and apps"
       }
     },
     {
@@ -78,14 +78,14 @@
       }
     },
     {
-      "id": "g-processes",
+      "id": "g-3-processes",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 300
       },
       "data": {
-        "label": "Processes"
+        "label": "3. Processes"
       }
     },
     {
@@ -122,14 +122,14 @@
       }
     },
     {
-      "id": "g-production",
+      "id": "g-4-production",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 440
       },
       "data": {
-        "label": "Production"
+        "label": "4. Production"
       }
     },
     {

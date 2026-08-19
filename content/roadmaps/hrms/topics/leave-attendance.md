@@ -1,7 +1,8 @@
 # Leave and attendance
 
-Leave policy, holidays, check-in with geolocation, attendance reports.
+Leave policy, holidays, check-in, attendance reports.
 
 ## Learn
 
-- @official@ HR docs | https://docs.frappe.io/hr
+- @official@ Leaves | https://docs.frappe.io/hr/leaves
+- @official@ Employee Attendance Tool | https://docs.frappe.io/hr/employee-attendance-tool

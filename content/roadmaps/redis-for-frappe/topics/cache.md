@@ -1,6 +1,6 @@
-# Cache
+# frappe.cache
 
-frappe.cache() wraps Redis. Invalidate on migrate. Do not cache permissions incorrectly.
+Cache expensive get_all results. Invalidate after migrate. Do not cache permission checks incorrectly.
 
 ## Learn
 

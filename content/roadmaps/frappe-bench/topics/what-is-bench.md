@@ -1,8 +1,8 @@
 # What bench is
 
-A Python CLI plus a directory: apps/, sites/, env/, config/. It is not the Framework; it orchestrates the Framework.
+A CLI plus a directory: apps/, sites/, env/, config/. It orchestrates the Framework; it is not the Framework.
 
 ## Learn
 
-- @github@ frappe/bench | https://github.com/frappe/bench
-- @official@ Installation | https://docs.frappe.io/framework/user/en/installation
+- @official@ Install and setup bench | https://docs.frappe.io/framework/user/en/tutorial/install-and-setup-bench
+- @official@ Bench commands | https://docs.frappe.io/framework/user/en/bench/bench-commands

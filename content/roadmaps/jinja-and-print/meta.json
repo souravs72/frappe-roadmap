@@ -3,6 +3,6 @@
   "title": "Jinja and print",
   "type": "skill",
   "version": "v16",
-  "summary": "Print formats, PDFs, wkhtmltopdf, and Print Designer.",
+  "summary": "Print formats, PDFs, and Print Designer.",
   "order": 15
 }

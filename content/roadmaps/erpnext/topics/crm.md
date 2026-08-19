@@ -1,7 +1,8 @@
 # CRM
 
-Lead, Opportunity. Some CRM UX also exists as a separate Frappe CRM app; know which one your site uses.
+Lead and Opportunity in ERPNext. Some sites also run the separate Frappe CRM app — know which you are on.
 
 ## Learn
 
-- @github@ crm | https://github.com/frappe/erpnext/tree/version-16/erpnext/crm
+- @official@ ERPNext Lead | https://docs.frappe.io/erpnext/lead
+- @official@ Frappe CRM Lead | https://docs.frappe.io/crm/lead

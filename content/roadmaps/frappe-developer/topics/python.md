@@ -1,8 +1,8 @@
 # Python for Frappe
 
-Frappe v16 expects a current CPython (see the v16 migration wiki). Controllers, hooks, and tests are Python. Follow the dedicated Python map next.
+v16 needs CPython 3.14. Controllers, hooks, and tests are Python. Open the Python map and work top to bottom.
 
 ## Learn
 
-- @github@ Migrating to version 16 | https://github.com/frappe/frappe/wiki/Migrating-to-version-16
-- @roadmapsh@ Python | https://roadmap.sh/python
+- @internal@ Python for Frappe map | #/r/python-for-frappe
+- @official@ Migrating to version 16 | https://github.com/frappe/frappe/wiki/Migrating-to-version-16

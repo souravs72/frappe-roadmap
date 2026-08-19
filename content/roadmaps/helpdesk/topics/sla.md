@@ -1,7 +1,7 @@
 # SLA
 
-Response and resolution clocks. Treat SLA as data plus scheduler, not only a badge.
+Response and resolution clocks plus scheduler.
 
 ## Learn
 
-- @official@ Helpdesk docs | https://docs.frappe.io/helpdesk
+- @official@ Service Level Agreement | https://docs.frappe.io/helpdesk/service-level-agreement

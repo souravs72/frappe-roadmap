@@ -1,14 +1,14 @@
 {
   "nodes": [
     {
-      "id": "g-engines",
+      "id": "g-1-engines",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 20
       },
       "data": {
-        "label": "Engines"
+        "label": "1. Engines"
       }
     },
     {
@@ -34,14 +34,14 @@
       }
     },
     {
-      "id": "g-querying",
+      "id": "g-2-querying-in-apps",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 160
       },
       "data": {
-        "label": "Querying"
+        "label": "2. Querying in apps"
       }
     },
     {

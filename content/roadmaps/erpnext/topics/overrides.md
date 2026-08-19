@@ -1,6 +1,6 @@
 # Hooks and class extensions
 
-doc_events, extend_doctype_class. Keep ERPNext importable; do not copy controllers into your app.
+doc_events and extend_doctype_class. Keep ERPNext importable.
 
 ## Learn
 

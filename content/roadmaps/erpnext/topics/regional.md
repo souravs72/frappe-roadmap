@@ -4,4 +4,4 @@ Tax templates and country modules. Do not hardcode one country GST into a global
 
 ## Learn
 
-- @github@ regional | https://github.com/frappe/erpnext/tree/version-16/erpnext/regional
+- @official@ ERPNext introduction | https://docs.frappe.io/erpnext/introduction

@@ -5,4 +5,4 @@ Request hits gunicorn, site context, Document API, MariaDB/Postgres, Redis. Desk
 ## Learn
 
 - @official@ Introduction | https://docs.frappe.io/framework/user/en/introduction
-- @github@ Migrating to version 16 | https://github.com/frappe/frappe/wiki/Migrating-to-version-16
+- @official@ Migrating to version 16 | https://github.com/frappe/frappe/wiki/Migrating-to-version-16

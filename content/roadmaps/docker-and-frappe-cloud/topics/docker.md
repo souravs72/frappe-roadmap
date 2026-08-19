@@ -1,8 +1,9 @@
-# Docker basics
+# Docker and Compose
 
-Images, volumes, persist sites and the database. Learn compose.
+Persist MariaDB and sites/ or you lose data on recreate. Learn Compose from Docker docs before copying a random gist.
 
 ## Learn
 
-- @github@ frappe_docker | https://github.com/frappe/frappe_docker
-- @roadmapsh@ Docker | https://roadmap.sh/docker
+- @docs@ Docker get started | https://docs.docker.com/get-started/
+- @docs@ Docker Compose | https://docs.docker.com/compose/
+- @official@ Setup production (Docker recommended) | https://docs.frappe.io/framework/user/en/bench/guides/setup-production

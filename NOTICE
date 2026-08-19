@@ -7,5 +7,11 @@ affiliated with, endorsed by, or sponsored by Frappe Technologies Pvt Ltd.
 Frappe, ERPNext, and related marks belong to their owners. Official docs:
 https://frappe.io/ and https://docs.frappe.io/
 
+This repository does not copy text, images, JSON maps, or source from
+https://github.com/kamranahmedse/developer-roadmap (also published as
+nilbuild/developer-roadmap). Their license forbids republishing that material.
+Skill pages here are original Frappe-specific lessons with citations to
+official documentation.
+
 Code in this repository is MIT licensed (see LICENSE). Learning content is
 original and licensed under the same MIT terms unless a file says otherwise.

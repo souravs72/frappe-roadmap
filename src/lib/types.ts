@@ -2,12 +2,11 @@ export type RoadmapType = 'role' | 'skill' | 'app'
 
 export type ResourceType =
   | 'official'
-  | 'github'
   | 'docs'
-  | 'video'
-  | 'article'
+  | 'forum'
   | 'school'
-  | 'roadmapsh'
+  | 'article'
+  | 'internal'
 
 export interface Resource {
   type: ResourceType

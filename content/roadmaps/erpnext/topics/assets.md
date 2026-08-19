@@ -4,4 +4,5 @@ Asset, depreciation, movement.
 
 ## Learn
 
-- @github@ assets | https://github.com/frappe/erpnext/tree/version-16/erpnext/assets
+- @official@ Assets overview | https://docs.frappe.io/erpnext/assets/introduction
+- @official@ Asset DocType | https://docs.frappe.io/erpnext/asset

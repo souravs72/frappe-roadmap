@@ -1,14 +1,14 @@
 {
   "nodes": [
     {
-      "id": "g-templates",
+      "id": "g-1-templates",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 20
       },
       "data": {
-        "label": "Templates"
+        "label": "1. Templates"
       }
     },
     {
@@ -19,7 +19,7 @@
         "y": 56
       },
       "data": {
-        "label": "Jinja syntax"
+        "label": "Jinja in print and email"
       }
     },
     {
@@ -34,14 +34,14 @@
       }
     },
     {
-      "id": "g-pdf",
+      "id": "g-2-pdf",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 160
       },
       "data": {
-        "label": "PDF"
+        "label": "2. PDF"
       }
     },
     {
@@ -52,7 +52,7 @@
         "y": 196
       },
       "data": {
-        "label": "wkhtmltopdf"
+        "label": "wkhtmltopdf and Chrome PDF"
       }
     },
     {

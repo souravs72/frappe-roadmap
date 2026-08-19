@@ -1,14 +1,14 @@
 {
   "nodes": [
     {
-      "id": "g-os",
+      "id": "g-1-os",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 20
       },
       "data": {
-        "label": "OS"
+        "label": "1. OS"
       }
     },
     {
@@ -34,14 +34,14 @@
       }
     },
     {
-      "id": "g-process",
+      "id": "g-2-process-manager",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 160
       },
       "data": {
-        "label": "Process"
+        "label": "2. Process manager"
       }
     },
     {

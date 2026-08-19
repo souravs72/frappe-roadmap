@@ -1,14 +1,14 @@
 {
   "nodes": [
     {
-      "id": "g-setup",
+      "id": "g-1-setup",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 20
       },
       "data": {
-        "label": "Setup"
+        "label": "1. Setup"
       }
     },
     {
@@ -23,14 +23,14 @@
       }
     },
     {
-      "id": "g-domain",
+      "id": "g-2-domain",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 160
       },
       "data": {
-        "label": "Domain"
+        "label": "2. Domain"
       }
     },
     {
@@ -89,14 +89,14 @@
       }
     },
     {
-      "id": "g-product",
+      "id": "g-3-product",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 300
       },
       "data": {
-        "label": "Product"
+        "label": "3. Product"
       }
     },
     {

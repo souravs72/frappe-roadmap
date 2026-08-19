@@ -3,6 +3,6 @@
   "title": "Python for Frappe",
   "type": "skill",
   "version": "v16",
-  "summary": "The Python subset you actually use in controllers, hooks, and tests on Frappe v16.",
+  "summary": "Learn the Python you need for Frappe v16 controllers, hooks, and tests. Lessons are written here; the Learn links go to Python.org, Frappe docs, and the forum.",
   "order": 10
 }

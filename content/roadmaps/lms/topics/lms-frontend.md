@@ -1,7 +1,8 @@
 # Frontend
 
-LMS ships a modern UI on Frappe. Customize like other Vue apps: extend, do not fork lightly.
+Modern UI on Frappe. Extend; do not fork lightly.
 
 ## Learn
 
-- @github@ frappe/lms | https://github.com/frappe/lms
+- @official@ Learning introduction | https://docs.frappe.io/learning/introduction
+- @official@ Frappe UI | https://frappe.io/frappe-ui

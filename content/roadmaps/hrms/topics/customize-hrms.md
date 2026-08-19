@@ -1,6 +1,6 @@
 # Customization
 
-Custom fields on Employee, workflow on claims. Prefer hooks over editing hrms controllers.
+Custom fields on Employee, workflow on claims. Prefer hooks over editing HR controllers.
 
 ## Learn
 

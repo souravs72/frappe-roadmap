@@ -1,14 +1,14 @@
 {
   "nodes": [
     {
-      "id": "g-foundations",
+      "id": "g-1-foundations",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 20
       },
       "data": {
-        "label": "Foundations"
+        "label": "1. Foundations"
       }
     },
     {
@@ -45,14 +45,14 @@
       }
     },
     {
-      "id": "g-data-and-runtime",
+      "id": "g-2-data-and-runtime",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 160
       },
       "data": {
-        "label": "Data and runtime"
+        "label": "2. Data and runtime"
       }
     },
     {
@@ -78,14 +78,14 @@
       }
     },
     {
-      "id": "g-frappe-core",
+      "id": "g-3-frappe-core",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 300
       },
       "data": {
-        "label": "Frappe core"
+        "label": "3. Frappe core"
       }
     },
     {
@@ -111,14 +111,14 @@
       }
     },
     {
-      "id": "g-official-apps",
+      "id": "g-4-official-apps",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 440
       },
       "data": {
-        "label": "Official apps"
+        "label": "4. Official apps"
       }
     },
     {
@@ -144,14 +144,14 @@
       }
     },
     {
-      "id": "g-ship-it",
+      "id": "g-5-ship-it",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 580
       },
       "data": {
-        "label": "Ship it"
+        "label": "5. Ship it"
       }
     },
     {

@@ -1,6 +1,6 @@
 # REST and RPC
 
-Token auth, /api/resource, /api/method. Version your integrations.
+Token auth, /api/resource, /api/method.
 
 ## Learn
 

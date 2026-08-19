@@ -3,6 +3,6 @@
   "title": "Linux, nginx, supervisor",
   "type": "skill",
   "version": "v16",
-  "summary": "The OS layer under a production bench.",
+  "summary": "OS, reverse proxy, and process manager from Frappe production docs.",
   "order": 17
 }

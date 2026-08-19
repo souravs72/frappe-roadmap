@@ -1,7 +1,8 @@
 # Assignment rules
 
-Auto-assign by priority, type, or workload. This is Frappe assignment plus Helpdesk rules.
+Auto-assign by priority, type, or workload.
 
 ## Learn
 
-- @official@ Helpdesk docs | https://docs.frappe.io/helpdesk
+- @official@ Agents and teams | https://docs.frappe.io/helpdesk/lesson-3-agents-teams
+- @official@ Framework assignments and ToDos | https://docs.frappe.io/framework/assignments-and-todos

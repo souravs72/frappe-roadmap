@@ -3,6 +3,6 @@
   "title": "Redis for Frappe",
   "type": "skill",
   "version": "v16",
-  "summary": "Cache, RQ queues, and socket.io pub/sub on a bench.",
+  "summary": "Cache, queues, and pub/sub as bench runs them.",
   "order": 14
 }

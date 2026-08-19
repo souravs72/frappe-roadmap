@@ -1,7 +1,7 @@
 # Integrations
 
-Payments, ecommerce, tax. Use documented connectors; store secrets in site_config.
+Payments and connectors. Store secrets in site_config, not in code.
 
 ## Learn
 
-- @official@ ERPNext docs | https://docs.frappe.io/erpnext
+- @official@ OAuth2 | https://docs.frappe.io/framework/oauth2

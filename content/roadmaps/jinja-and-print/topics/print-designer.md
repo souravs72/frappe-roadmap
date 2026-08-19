@@ -1,7 +1,7 @@
 # Print Designer
 
-Visual layouts as a Frappe app. Still learn Jinja for edge cases.
+Visual layouts as a Frappe app. You still need Jinja for computed rows.
 
 ## Learn
 
-- @github@ frappe/print_designer | https://github.com/frappe/print_designer
+- @official@ Print Designer docs | https://docs.frappe.io/print-designer

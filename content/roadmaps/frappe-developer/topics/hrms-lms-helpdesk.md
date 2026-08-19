@@ -1,9 +1,9 @@
 # HRMS, LMS, Helpdesk
 
-These are separate Frappe apps with Vue frontends. Install them on a v16 bench and read their DocTypes before customizing.
+Separate apps with Vue frontends. Install on a v16 bench after Framework.
 
 ## Learn
 
-- @official@ Frappe HR | https://docs.frappe.io/hr/introduction
-- @official@ Learning | https://docs.frappe.io/learning
-- @official@ Helpdesk | https://docs.frappe.io/helpdesk
+- @internal@ Frappe HR | #/r/hrms
+- @internal@ Frappe LMS | #/r/lms
+- @internal@ Frappe Helpdesk | #/r/helpdesk

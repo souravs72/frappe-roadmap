@@ -1,8 +1,9 @@
-# Vue 3 basics
+# Vue 3 and SFCs
 
-SFCs, props, emits, composition API. Portal apps are Vue 3, not Vue 2 Desk.
+Portal apps use Vue 3 single-file components, not Vue 2 Form Scripts. Desk widgets use the “Vue inside Desk” guide; full products use a Frappe UI SPA.
 
 ## Learn
 
-- @github@ frappe-ui | https://github.com/frappe/frappe-ui
-- @roadmapsh@ Vue | https://roadmap.sh/vue
+- @docs@ Vue 3 introduction | https://vuejs.org/guide/introduction.html
+- @official@ Using Vue inside a Desk page | https://docs.frappe.io/framework/using-vue-inside-a-desk-page
+- @official@ Frappe UI | https://frappe.io/frappe-ui

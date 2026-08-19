@@ -1,7 +1,8 @@
 # Agent portal
 
-Ticket list, assignment, saved replies. UI is the Vue app under desk/.
+Ticket list, assignment, saved replies.
 
 ## Learn
 
-- @github@ helpdesk desk | https://github.com/frappe/helpdesk/tree/main/desk
+- @official@ Ticket | https://docs.frappe.io/helpdesk/ticket
+- @official@ Agents and teams | https://docs.frappe.io/helpdesk/lesson-3-agents-teams

@@ -28,8 +28,8 @@ export function HomePage() {
       <h1 className="mt-2 text-4xl font-semibold tracking-tight">Frappe developer roadmaps</h1>
       <p className="mt-3 max-w-2xl text-[var(--muted)]">
         Interactive learning maps for bench, Frappe Framework, ERPNext, HRMS, LMS, and
-        Helpdesk. Prerequisite maps are Frappe-specific; they link out to roadmap.sh instead
-        of copying it.
+        Helpdesk. Skill maps (Python, JavaScript, Vue, SQL, Redis, print, Git, Linux, Docker)
+        are written here and cite official docs, Python.org, MDN, and the Frappe forum.
       </p>
       <input
         value={q}

@@ -4,4 +4,4 @@ Supplier, Purchase Order, Purchase Receipt, Purchase Invoice.
 
 ## Learn
 
-- @github@ buying | https://github.com/frappe/erpnext/tree/version-16/erpnext/buying
+- @official@ Buying module | https://docs.frappe.io/erpnext/buying

@@ -1,7 +1,8 @@
 # Frappe UI SPA
 
-yarn dev in desk/ for frontend. Production assets via bench build --app helpdesk.
+Frontend dev via the Helpdesk install docs; production assets via bench build --app helpdesk.
 
 ## Learn
 
-- @github@ helpdesk README | https://github.com/frappe/helpdesk
+- @official@ Your first steps with Helpdesk | https://docs.frappe.io/helpdesk/your-first-steps-with-frappe-helpdesk
+- @official@ Frappe UI | https://frappe.io/frappe-ui

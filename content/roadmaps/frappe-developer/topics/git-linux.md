@@ -1,9 +1,9 @@
 # Git and Linux
 
-You will live in a terminal and a git history. Learn enough Linux to run bench, edit configs, and read logs, plus Git so you can contribute patches without wrecking version-16 branches.
+You will live in a terminal and a git history. Complete the Git map and the Linux/nginx map next. Do not skip permissions on sites/.
 
 ## Learn
 
+- @internal@ Git for Frappe apps | #/r/git-and-github
+- @internal@ Linux, nginx, supervisor | #/r/linux-nginx-supervisor
 - @official@ Frappe installation | https://docs.frappe.io/framework/user/en/installation
-- @roadmapsh@ Git and GitHub | https://roadmap.sh/git-github
-- @roadmapsh@ Linux | https://roadmap.sh/linux

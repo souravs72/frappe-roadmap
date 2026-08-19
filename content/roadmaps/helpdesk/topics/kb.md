@@ -1,7 +1,8 @@
 # Knowledge base
 
-Articles that deflect tickets. Search quality matters more than article count.
+Articles that deflect tickets.
 
 ## Learn
 
-- @official@ Helpdesk docs | https://docs.frappe.io/helpdesk
+- @official@ Knowledge Base | https://docs.frappe.io/helpdesk/knowledge-base
+- @official@ Knowledge Base lesson | https://docs.frappe.io/helpdesk/lesson-4-knowledge-base

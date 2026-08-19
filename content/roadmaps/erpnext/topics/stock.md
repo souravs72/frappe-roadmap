@@ -1,7 +1,8 @@
 # Stock ledger
 
-SLE, warehouses, valuation. Stock and accounts meet at stock reconciliation and delivery.
+SLE, warehouses, valuation. Stock and accounts meet at delivery and reconciliation.
 
 ## Learn
 
-- @github@ stock | https://github.com/frappe/erpnext/tree/version-16/erpnext/stock
+- @official@ Stock module | https://docs.frappe.io/erpnext/stock
+- @official@ Accounting of inventory stock | https://docs.frappe.io/erpnext/accounting-of-inventory-stock

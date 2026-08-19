@@ -1,7 +1,8 @@
-# frappe namespace
+# frappe.call and Desk APIs
 
-Read frappe/public/js on version-16 before copying old v12 snippets.
+Prefer a @frappe.whitelist method plus frappe.call over copying old v12 snippets. Permissions stay on the server.
 
 ## Learn
 
-- @github@ frappe public/js | https://github.com/frappe/frappe/tree/version-16/frappe/public/js
+- @official@ Client scripts | https://docs.frappe.io/framework/user/en/guides/client-scripts
+- @official@ REST and whitelisted methods | https://docs.frappe.io/framework/user/en/api/rest

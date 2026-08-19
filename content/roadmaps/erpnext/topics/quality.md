@@ -1,7 +1,7 @@
 # Quality
 
-Quality inspection, procedures.
+Quality inspection and procedures.
 
 ## Learn
 
-- @github@ quality_management | https://github.com/frappe/erpnext/tree/version-16/erpnext/quality_management
+- @official@ Quality Action | https://docs.frappe.io/erpnext/quality_action

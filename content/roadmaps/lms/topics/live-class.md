@@ -1,7 +1,7 @@
 # Live class
 
-Live sessions wired through the LMS app. Check current docs for the provider hooks.
+Live sessions via Zoom or Google Meet from a batch.
 
 ## Learn
 
-- @official@ Learning docs | https://docs.frappe.io/learning
+- @official@ Create a live class | https://docs.frappe.io/learning/create-a-live-class

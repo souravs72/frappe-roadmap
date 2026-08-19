@@ -3,6 +3,6 @@
   "title": "ERPNext",
   "type": "app",
   "version": "v16",
-  "summary": "Developer map of ERPNext v16 modules, ledgers, and override points.",
+  "summary": "Modules, ledgers, and customization from ERPNext docs.",
   "order": 30
 }

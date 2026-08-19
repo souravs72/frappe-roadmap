@@ -1,8 +1,8 @@
 # Bench
 
-bench is the CLI that creates sites, installs apps, runs workers, and writes nginx/supervisor configs. Master it before you fight framework internals.
+CLI that creates sites, installs apps, and writes nginx/supervisor config.
 
 ## Learn
 
-- @github@ frappe/bench | https://github.com/frappe/bench
-- @official@ Installation | https://docs.frappe.io/framework/user/en/installation
+- @internal@ Frappe Bench map | #/r/frappe-bench
+- @official@ Install and setup bench | https://docs.frappe.io/framework/user/en/tutorial/install-and-setup-bench

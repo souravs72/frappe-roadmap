@@ -3,6 +3,6 @@
   "title": "Frappe Developer",
   "type": "role",
   "version": "v16",
-  "summary": "The sequenced path from Linux and Python to shipping custom apps on Frappe v16.",
+  "summary": "Follow the numbered skill maps in order, then Bench, Framework, and the official apps. Each node opens a lesson on this site.",
   "order": 1
 }

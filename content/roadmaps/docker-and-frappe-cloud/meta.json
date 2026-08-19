@@ -3,6 +3,6 @@
   "title": "Docker and Frappe Cloud",
   "type": "skill",
   "version": "v16",
-  "summary": "Containers, easy-install, and managed hosting.",
+  "summary": "Containers, frappe_docker, and managed hosting.",
   "order": 18
 }

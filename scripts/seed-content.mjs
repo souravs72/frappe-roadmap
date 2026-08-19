@@ -1,6 +1,6 @@
 import fs from 'node:fs'
 import path from 'node:path'
-import { roadmaps } from './roadmap-data.mjs'
+import { roadmaps } from './catalog.mjs'
 
 const ROOT = path.resolve(import.meta.dirname, '..')
 const NODE_W = 210

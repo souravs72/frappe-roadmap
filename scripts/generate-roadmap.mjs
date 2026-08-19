@@ -46,7 +46,7 @@ async function summarize(label) {
         {
           role: 'system',
           content:
-            'Write 2-3 original sentences for a Frappe v16 developer roadmap topic. No copied roadmap.sh text. No APIs you cannot cite.',
+            'Write 2-3 original sentences for a Frappe v16 developer roadmap topic. Cite official docs only. No APIs you cannot cite.',
         },
         { role: 'user', content: `Topic: ${label}` },
       ],

@@ -1,7 +1,7 @@
 # Selling
 
-Quotation, Sales Order, Delivery Note, Sales Invoice. Understand status flags before automating.
+Quotation → Sales Order → Delivery Note → Sales Invoice. Learn the cycle before automating.
 
 ## Learn
 
-- @github@ selling | https://github.com/frappe/erpnext/tree/version-16/erpnext/selling
+- @official@ Selling module | https://docs.frappe.io/erpnext/selling

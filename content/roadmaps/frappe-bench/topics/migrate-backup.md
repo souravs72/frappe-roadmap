@@ -4,4 +4,5 @@ bench --site x migrate after pulls. Backup before migrate on production.
 
 ## Learn
 
-- @github@ frappe/bench | https://github.com/frappe/bench
+- @official@ Bench commands | https://docs.frappe.io/framework/user/en/bench/bench-commands
+- @official@ Database migrations | https://docs.frappe.io/framework/user/en/database-migrations

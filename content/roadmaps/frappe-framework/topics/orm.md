@@ -1,6 +1,6 @@
 # ORM and frappe.db
 
-get_doc, new_doc, db.get_all. Use qb when you need joins; avoid string SQL.
+get_doc, new_doc, db.get_all. Use qb for joins; avoid string SQL.
 
 ## Learn
 

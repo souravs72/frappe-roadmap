@@ -1,6 +1,6 @@
 # OAuth2
 
-Social login and API clients. Prefer tokens over storing passwords.
+Social login and API clients.
 
 ## Learn
 

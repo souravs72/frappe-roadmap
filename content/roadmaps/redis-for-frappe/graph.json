@@ -1,14 +1,14 @@
 {
   "nodes": [
     {
-      "id": "g-roles",
+      "id": "g-1-roles",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 20
       },
       "data": {
-        "label": "Roles"
+        "label": "1. Roles"
       }
     },
     {
@@ -30,18 +30,18 @@
         "y": 56
       },
       "data": {
-        "label": "Cache"
+        "label": "frappe.cache"
       }
     },
     {
-      "id": "g-jobs-and-realtime",
+      "id": "g-2-jobs-and-realtime",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 160
       },
       "data": {
-        "label": "Jobs and realtime"
+        "label": "2. Jobs and realtime"
       }
     },
     {

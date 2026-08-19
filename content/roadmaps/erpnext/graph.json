@@ -1,14 +1,14 @@
 {
   "nodes": [
     {
-      "id": "g-orientation",
+      "id": "g-1-orientation",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 20
       },
       "data": {
-        "label": "Orientation"
+        "label": "1. Orientation"
       }
     },
     {
@@ -34,14 +34,14 @@
       }
     },
     {
-      "id": "g-ledgers",
+      "id": "g-2-ledgers",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 160
       },
       "data": {
-        "label": "Ledgers"
+        "label": "2. Ledgers"
       }
     },
     {
@@ -67,14 +67,14 @@
       }
     },
     {
-      "id": "g-flows",
+      "id": "g-3-flows",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 300
       },
       "data": {
-        "label": "Flows"
+        "label": "3. Flows"
       }
     },
     {
@@ -122,14 +122,14 @@
       }
     },
     {
-      "id": "g-more-modules",
+      "id": "g-4-more-modules",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 440
       },
       "data": {
-        "label": "More modules"
+        "label": "4. More modules"
       }
     },
     {
@@ -177,14 +177,14 @@
       }
     },
     {
-      "id": "g-customization",
+      "id": "g-5-customization",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 580
       },
       "data": {
-        "label": "Customization"
+        "label": "5. Customization"
       }
     },
     {
@@ -195,7 +195,7 @@
         "y": 616
       },
       "data": {
-        "label": "Customize Form and Client scripts"
+        "label": "Customize Form"
       }
     },
     {

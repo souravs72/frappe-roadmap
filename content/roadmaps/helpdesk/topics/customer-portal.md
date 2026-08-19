@@ -1,7 +1,7 @@
 # Customer portal
 
-Issue submission and KB search for customers, not Desk users.
+Issue submission and KB search for customers.
 
 ## Learn
 
-- @official@ Helpdesk docs | https://docs.frappe.io/helpdesk
+- @official@ Your first steps with Helpdesk | https://docs.frappe.io/helpdesk/your-first-steps-with-frappe-helpdesk

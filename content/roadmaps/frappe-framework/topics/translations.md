@@ -1,6 +1,6 @@
 # Translations
 
-Extract strings, language files, Crowdin on official apps.
+Extract strings and language files.
 
 ## Learn
 

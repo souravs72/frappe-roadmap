@@ -1,7 +1,8 @@
 # Composition API
 
-ref, computed, watch. Keep local state here; talk to Frappe via session and RPC.
+ref, computed, and watch hold UI state. Server truth stays in DocTypes. CSRF and session cookies still apply.
 
 ## Learn
 
-- @roadmapsh@ Vue | https://roadmap.sh/vue
+- @docs@ Composition API FAQ | https://vuejs.org/guide/extras/composition-api-faq.html
+- @docs@ Reactivity fundamentals | https://vuejs.org/guide/essentials/reactivity-fundamentals.html

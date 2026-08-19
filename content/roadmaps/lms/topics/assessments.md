@@ -1,7 +1,8 @@
 # Assessments
 
-Quizzes and assignments. Store scores on LMS DocTypes, not ad-hoc JSON files.
+Quizzes and assignments stored on LMS DocTypes.
 
 ## Learn
 
-- @official@ Learning docs | https://docs.frappe.io/learning
+- @official@ Quizzes | https://docs.frappe.io/learning/quizzes
+- @official@ Assignments | https://docs.frappe.io/learning/assignments

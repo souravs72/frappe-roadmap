@@ -1,7 +1,7 @@
 # get-app and install-app
 
-bench get-app clones into apps/. install-app runs migrations on a site. Order matters when apps depend on erpnext.
+get-app clones into apps/. install-app runs migrations on a site. Install erpnext before apps that depend on it.
 
 ## Learn
 
-- @github@ frappe/bench | https://github.com/frappe/bench
+- @official@ Bench commands | https://docs.frappe.io/framework/user/en/bench/bench-commands

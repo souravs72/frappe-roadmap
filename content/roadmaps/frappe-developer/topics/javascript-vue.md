@@ -1,9 +1,8 @@
 # JavaScript and Vue
 
-Desk client scripts are JavaScript. New portals (HRMS, Helpdesk, LMS) use Vue 3 and Frappe UI. You do not need every frontend framework, but you do need ES modules, async, and Vue components.
+Desk client scripts are JavaScript. Helpdesk/HRMS/LMS portals are Vue 3 + Frappe UI. Do both skill maps.
 
 ## Learn
 
-- @github@ frappe-ui | https://github.com/frappe/frappe-ui
-- @roadmapsh@ JavaScript | https://roadmap.sh/javascript
-- @roadmapsh@ Vue | https://roadmap.sh/vue
+- @internal@ JavaScript for Frappe | #/r/javascript-for-frappe
+- @internal@ Vue and Frappe UI | #/r/vue-and-frappe-ui

@@ -1,7 +1,8 @@
 # Mobile / PWA
 
-Leaves and check-in on the mobile app. Frontend lives under hrms/frontend.
+Leaves and check-in on the mobile app. Built with Frappe UI.
 
 ## Learn
 
-- @github@ hrms frontend | https://github.com/frappe/hrms/tree/develop/frontend
+- @official@ Frappe HR | https://docs.frappe.io/hr/introduction
+- @official@ Frappe UI | https://frappe.io/frappe-ui

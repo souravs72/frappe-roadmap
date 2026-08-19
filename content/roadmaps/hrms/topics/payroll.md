@@ -1,7 +1,8 @@
 # Payroll and tax
 
-Salary structure, tax slabs, salary slip, off-cycle. Test on a copy site; payroll is irreversible in the business sense.
+Salary structure, tax slabs, salary slip. Test on a copy site.
 
 ## Learn
 
-- @official@ HR docs | https://docs.frappe.io/hr
+- @official@ Payroll setup | https://docs.frappe.io/hr/payroll-setup
+- @official@ Payroll Entry | https://docs.frappe.io/hr/payroll-entry

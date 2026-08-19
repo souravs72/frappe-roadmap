@@ -4,12 +4,11 @@ import type { ParsedTopic, ResourceType } from '../lib/types'
 
 const labels: Record<ResourceType, string> = {
   official: 'Official',
-  github: 'GitHub',
   docs: 'Docs',
-  video: 'Video',
-  article: 'Article',
+  forum: 'Forum',
   school: 'Frappe School',
-  roadmapsh: 'roadmap.sh',
+  article: 'Article',
+  internal: 'This site',
 }
 
 export function TopicDrawer({
@@ -39,7 +38,9 @@ export function TopicDrawer({
         </button>
       </div>
       <div className="flex-1 overflow-auto p-4 text-sm leading-relaxed text-[var(--muted)]">
-        <Markdown remarkPlugins={[remarkGfm]}>{topic.body}</Markdown>
+        <div className="topic-body text-[var(--text)]">
+          <Markdown remarkPlugins={[remarkGfm]}>{topic.body}</Markdown>
+        </div>
         {topic.resources.length > 0 && (
           <div className="mt-6">
             <h3 className="mb-2 text-sm font-semibold text-[var(--text)]">Learn</h3>
@@ -49,7 +50,12 @@ export function TopicDrawer({
                   <span className="mr-2 rounded bg-black/30 px-1.5 py-0.5 text-[11px] uppercase">
                     {labels[r.type]}
                   </span>
-                  <a href={r.url} target="_blank" rel="noreferrer">
+                  <a
+                    href={r.url}
+                    {...(r.url.startsWith('#/')
+                      ? {}
+                      : { target: '_blank', rel: 'noreferrer' })}
+                  >
                     {r.title}
                   </a>
                 </li>

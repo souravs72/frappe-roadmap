@@ -1,8 +1,8 @@
 # Commit, diff, stash
 
-Patch apps inside apps/. Never commit sites/ databases. Rebase onto version-16.
+Learn status, add, commit, diff from Pro Git. Never commit sites/, env/, or database dumps.
 
 ## Learn
 
-- @github@ frappe/frappe version-16 | https://github.com/frappe/frappe/tree/version-16
-- @roadmapsh@ Git and GitHub | https://roadmap.sh/git-github
+- @docs@ Git Basics (Pro Git) | https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository
+- @docs@ Recording changes | https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository

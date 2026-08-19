@@ -1,14 +1,14 @@
 {
   "nodes": [
     {
-      "id": "g-containers",
+      "id": "g-1-containers",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 20
       },
       "data": {
-        "label": "Containers"
+        "label": "1. Containers"
       }
     },
     {
@@ -19,7 +19,7 @@
         "y": 56
       },
       "data": {
-        "label": "Docker basics"
+        "label": "Docker and Compose"
       }
     },
     {
@@ -34,14 +34,14 @@
       }
     },
     {
-      "id": "g-hosted",
+      "id": "g-2-hosted",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 160
       },
       "data": {
-        "label": "Hosted"
+        "label": "2. Hosted"
       }
     },
     {

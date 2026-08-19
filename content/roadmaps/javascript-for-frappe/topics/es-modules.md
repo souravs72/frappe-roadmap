@@ -1,8 +1,8 @@
-# ES modules and bundling
+# Modules and bench build
 
-Apps ship JS through esbuild via bench build. Prefer ES modules on new Desk pages.
+JavaScript modules (import / export) split code. Frappe apps ship JS through bench build. If a custom script never appears, run bench build --app your_app and hard-refresh.
 
 ## Learn
 
-- @official@ Desk scripting | https://docs.frappe.io/framework/user/en/desk/scripting
-- @roadmapsh@ JavaScript | https://roadmap.sh/javascript
+- @docs@ MDN: JavaScript modules | https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+- @official@ Client scripts | https://docs.frappe.io/framework/user/en/guides/client-scripts

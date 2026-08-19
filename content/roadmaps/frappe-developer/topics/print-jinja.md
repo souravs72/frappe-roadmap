@@ -1,8 +1,8 @@
 # Jinja and print
 
-Print formats, emails, and many website templates are Jinja. PDFs still often go through wkhtmltopdf; Print Designer is the newer visual path.
+Print formats and PDFs. Complete the print map before a customer invoice goes to production.
 
 ## Learn
 
-- @official@ Print formats | https://docs.frappe.io/framework/user/en/print-format
-- @github@ print_designer | https://github.com/frappe/print_designer
+- @internal@ Jinja and print | #/r/jinja-and-print
+- @official@ Print format | https://docs.frappe.io/framework/user/en/print-format

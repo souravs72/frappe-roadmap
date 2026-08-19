@@ -1,6 +1,6 @@
 # Website
 
-Web pages, web forms, portal. Separate from Desk; still Frappe templates.
+Web pages, web forms, portal. Separate from Desk.
 
 ## Learn
 

@@ -1,8 +1,8 @@
 # PostgreSQL
 
-Supported as an alternative. Test custom SQL on both if you ship a public app.
+Supported as an alternative. Test raw SQL reports on both engines if you ship a public app.
 
 ## Learn
 
-- @official@ Database | https://docs.frappe.io/framework/user/en/api/database
-- @roadmapsh@ PostgreSQL | https://roadmap.sh/postgresql
+- @docs@ PostgreSQL tutorial | https://www.postgresql.org/docs/current/tutorial.html
+- @official@ Database API | https://docs.frappe.io/framework/user/en/api/database

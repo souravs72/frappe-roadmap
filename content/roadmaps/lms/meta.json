@@ -3,6 +3,6 @@
   "title": "Frappe LMS",
   "type": "app",
   "version": "v16",
-  "summary": "Courses, batches, live class, and assessments on Frappe.",
+  "summary": "Courses, batches, live class, and assessments.",
   "order": 32
 }

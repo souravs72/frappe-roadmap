@@ -1,8 +1,8 @@
-# Frappe UI library
+# Frappe UI components
 
-Match Helpdesk desk/ patterns instead of inventing CSS.
+Use Frappe UI controls so Helpdesk/HR spacing and dark mode match. Do not paste Bootstrap into a portal fork.
 
 ## Learn
 
-- @github@ frappe-ui | https://github.com/frappe/frappe-ui
-- @github@ helpdesk desk | https://github.com/frappe/helpdesk/tree/main/desk
+- @official@ Frappe UI | https://frappe.io/frappe-ui
+- @official@ Helpdesk first steps | https://docs.frappe.io/helpdesk/your-first-steps-with-frappe-helpdesk

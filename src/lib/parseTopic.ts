@@ -2,12 +2,11 @@ import type { ParsedTopic, Resource, ResourceType } from './types'
 
 const TYPES: ResourceType[] = [
   'official',
-  'github',
   'docs',
-  'video',
-  'article',
+  'forum',
   'school',
-  'roadmapsh',
+  'article',
+  'internal',
 ]
 
 export function parseTopicMarkdown(raw: string): ParsedTopic {
@@ -30,7 +29,7 @@ export function parseTopicMarkdown(raw: string): ParsedTopic {
       inLearn = false
     }
     if (inLearn) {
-      const m = line.match(/^- @(\w+)@\s+(.+?)\s+\|\s+(https?:\/\/\S+)\s*$/)
+      const m = line.match(/^- @(\w+)@\s+(.+?)\s+\|\s+((?:https?:\/\/|#\/)\S+)\s*$/)
       if (m) {
         const type = m[1] as ResourceType
         if (TYPES.includes(type)) {

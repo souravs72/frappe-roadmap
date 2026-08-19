@@ -1,6 +1,6 @@
 # Reports
 
-Query, script, and report builder. Script reports are Python.
+Query, script, and report builder.
 
 ## Learn
 

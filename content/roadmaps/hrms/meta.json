@@ -3,6 +3,6 @@
   "title": "Frappe HR (HRMS)",
   "type": "app",
   "version": "v16",
-  "summary": "Employee lifecycle, leave, payroll, and the HRMS Vue frontend.",
+  "summary": "Employee lifecycle, leave, payroll, and the HR frontend.",
   "order": 31
 }

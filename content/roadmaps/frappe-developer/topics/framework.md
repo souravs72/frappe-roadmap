@@ -1,8 +1,8 @@
 # Frappe Framework
 
-DocTypes, ORM, hooks (prefer extend_doctype_class on v16), Desk, REST, permissions, jobs, and tests. This is the main skill map.
+DocTypes, ORM, hooks (extend_doctype_class on v16), Desk, REST, permissions, jobs, tests.
 
 ## Learn
 
-- @official@ Framework docs | https://docs.frappe.io/framework
-- @github@ frappe/frappe version-16 | https://github.com/frappe/frappe/tree/version-16
+- @internal@ Frappe Framework map | #/r/frappe-framework
+- @official@ Framework introduction | https://docs.frappe.io/framework/user/en/introduction

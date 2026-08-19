@@ -1,6 +1,6 @@
 # Workers and scheduler
 
-bench worker and bench schedule. Cron hooks live in hooks.py.
+bench worker and bench schedule. Cron lives in hooks.py.
 
 ## Learn
 

@@ -7,12 +7,11 @@ const BASE = path.join(ROOT, 'content', 'roadmaps')
 
 const TYPES = new Set([
   'official',
-  'github',
   'docs',
-  'video',
-  'article',
+  'forum',
   'school',
-  'roadmapsh',
+  'article',
+  'internal',
 ])
 
 function fail(msg) {
@@ -55,16 +54,26 @@ for (const slug of fs.readdirSync(BASE)) {
   }
   for (const file of files) {
     const raw = fs.readFileSync(path.join(topicsDir, file), 'utf8')
+    if (/roadmap\.sh/i.test(raw)) {
+      fail(`${slug}/${file}: must not mention roadmap.sh`)
+    }
     const parsed = parseTopic(raw)
     for (const r of parsed.resources) {
       if (!TYPES.has(r.type)) fail(`${slug}/${file}: bad type @${r.type}@`)
+      if (/roadmap\.sh/i.test(r.url) || /roadmap\.sh/i.test(r.title)) {
+        fail(`${slug}/${file}: roadmap.sh links are not allowed`)
+      }
+      if (r.type === 'internal') {
+        if (!r.url.startsWith('#/')) fail(`${slug}/${file}: @internal@ must start with #/`)
+        continue
+      }
       try {
         new URL(r.url)
       } catch {
         fail(`${slug}/${file}: bad url ${r.url}`)
       }
-      if (r.type === 'roadmapsh' && !r.url.startsWith('https://roadmap.sh/')) {
-        fail(`${slug}/${file}: @roadmapsh@ must start with https://roadmap.sh/`)
+      if (r.type === 'forum' && !r.url.includes('discuss.frappe.io')) {
+        fail(`${slug}/${file}: @forum@ must be a discuss.frappe.io URL`)
       }
     }
   }

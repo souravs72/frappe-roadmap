@@ -1,7 +1,8 @@
 # Form and list scripts
 
-Client scripts attach to DocTypes. Learn frm.set_value, refresh, and query filters. Heavy logic belongs in Python.
+Client scripts attach to a DocType (refresh, validate, field change). Keep totals in Python; the browser is for UX.
 
 ## Learn
 
 - @official@ Client scripts | https://docs.frappe.io/framework/user/en/guides/client-scripts
+- @official@ Desk scripting | https://docs.frappe.io/framework/user/en/desk/scripting

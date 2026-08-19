@@ -1,14 +1,14 @@
 {
   "nodes": [
     {
-      "id": "g-git",
+      "id": "g-1-git",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 20
       },
       "data": {
-        "label": "Git"
+        "label": "1. Git"
       }
     },
     {
@@ -30,18 +30,18 @@
         "y": 56
       },
       "data": {
-        "label": "version-16 branches"
+        "label": "Branches: version-16 vs develop"
       }
     },
     {
-      "id": "g-github",
+      "id": "g-2-reviews",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 160
       },
       "data": {
-        "label": "GitHub"
+        "label": "2. Reviews"
       }
     },
     {

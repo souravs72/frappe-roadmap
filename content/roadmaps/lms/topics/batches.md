@@ -4,4 +4,4 @@ Cohorts, enrollment, scheduling.
 
 ## Learn
 
-- @official@ Learning docs | https://docs.frappe.io/learning
+- @official@ Navigating the Learning portal | https://docs.frappe.io/learning/basic-settings/navigating-learning-portal

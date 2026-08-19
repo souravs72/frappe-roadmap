@@ -1,7 +1,8 @@
 # Website and e-commerce
 
-Item website, shopping cart settings. Portal is Frappe website, not Desk.
+Item website and shopping cart. Portal is the Website, not Desk.
 
 ## Learn
 
-- @official@ ERPNext docs | https://docs.frappe.io/erpnext
+- @official@ Website settings | https://docs.frappe.io/erpnext/website-settings
+- @official@ Shopping cart | https://docs.frappe.io/erpnext/shopping-cart

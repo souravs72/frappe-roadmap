@@ -1,14 +1,14 @@
 {
   "nodes": [
     {
-      "id": "g-runtime",
+      "id": "g-1-runtime",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 20
       },
       "data": {
-        "label": "Runtime"
+        "label": "1. Runtime"
       }
     },
     {
@@ -19,48 +19,92 @@
         "y": 56
       },
       "data": {
-        "label": "CPython for v16"
+        "label": "CPython 3.14 for v16"
       }
     },
     {
-      "id": "venv",
+      "id": "uv-venv",
       "type": "topic",
       "position": {
         "x": 254,
         "y": 56
       },
       "data": {
-        "label": "venv and bench env"
+        "label": "uv, venv, and bench env"
       }
     },
     {
-      "id": "g-language",
+      "id": "g-2-language-core",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 160
       },
       "data": {
-        "label": "Language"
+        "label": "2. Language core"
       }
     },
     {
-      "id": "syntax-stdlib",
+      "id": "syntax-control",
       "type": "topic",
       "position": {
         "x": 16,
         "y": 196
       },
       "data": {
-        "label": "Syntax and stdlib"
+        "label": "Syntax and control flow"
+      }
+    },
+    {
+      "id": "collections",
+      "type": "topic",
+      "position": {
+        "x": 254,
+        "y": 196
+      },
+      "data": {
+        "label": "Lists, dicts, and sets"
+      }
+    },
+    {
+      "id": "strings-pathlib",
+      "type": "topic",
+      "position": {
+        "x": 492,
+        "y": 196
+      },
+      "data": {
+        "label": "Strings and pathlib"
+      }
+    },
+    {
+      "id": "decimal-datetime",
+      "type": "topic",
+      "position": {
+        "x": 730,
+        "y": 196
+      },
+      "data": {
+        "label": "Decimal, dates, and money"
+      }
+    },
+    {
+      "id": "g-3-types-and-objects",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 300
+      },
+      "data": {
+        "label": "3. Types and objects"
       }
     },
     {
       "id": "typing",
       "type": "topic",
       "position": {
-        "x": 254,
-        "y": 196
+        "x": 16,
+        "y": 336
       },
       "data": {
         "label": "Type hints"
@@ -70,57 +114,72 @@
       "id": "oop",
       "type": "topic",
       "position": {
-        "x": 492,
-        "y": 196
+        "x": 254,
+        "y": 336
       },
       "data": {
         "label": "Classes and Document"
       }
     },
     {
-      "id": "g-frappe-python",
-      "type": "groupLabel",
-      "position": {
-        "x": 16,
-        "y": 300
-      },
-      "data": {
-        "label": "Frappe Python"
-      }
-    },
-    {
       "id": "exceptions",
       "type": "topic",
       "position": {
-        "x": 16,
+        "x": 492,
         "y": 336
       },
       "data": {
-        "label": "frappe.throw"
+        "label": "Exceptions and frappe.throw"
+      }
+    },
+    {
+      "id": "g-4-tests",
+      "type": "groupLabel",
+      "position": {
+        "x": 16,
+        "y": 440
+      },
+      "data": {
+        "label": "4. Tests"
       }
     },
     {
       "id": "testing",
       "type": "topic",
       "position": {
-        "x": 254,
-        "y": 336
+        "x": 16,
+        "y": 476
       },
       "data": {
-        "label": "Frappe tests"
+        "label": "unittest and Frappe tests"
       }
     }
   ],
   "edges": [
     {
-      "id": "python-314-venv",
+      "id": "python-314-uv-venv",
       "source": "python-314",
-      "target": "venv"
+      "target": "uv-venv"
     },
     {
-      "id": "syntax-stdlib-typing",
-      "source": "syntax-stdlib",
-      "target": "typing"
+      "id": "syntax-control-collections",
+      "source": "syntax-control",
+      "target": "collections"
+    },
+    {
+      "id": "collections-strings-pathlib",
+      "source": "collections",
+      "target": "strings-pathlib"
+    },
+    {
+      "id": "strings-pathlib-decimal-datetime",
+      "source": "strings-pathlib",
+      "target": "decimal-datetime"
+    },
+    {
+      "id": "python-314-syntax-control",
+      "source": "python-314",
+      "target": "syntax-control"
     },
     {
       "id": "typing-oop",
@@ -128,19 +187,19 @@
       "target": "oop"
     },
     {
-      "id": "python-314-syntax-stdlib",
-      "source": "python-314",
-      "target": "syntax-stdlib"
-    },
-    {
-      "id": "exceptions-testing",
-      "source": "exceptions",
-      "target": "testing"
-    },
-    {
-      "id": "syntax-stdlib-exceptions",
-      "source": "syntax-stdlib",
+      "id": "oop-exceptions",
+      "source": "oop",
       "target": "exceptions"
+    },
+    {
+      "id": "syntax-control-typing",
+      "source": "syntax-control",
+      "target": "typing"
+    },
+    {
+      "id": "typing-testing",
+      "source": "typing",
+      "target": "testing"
     }
   ]
 }

@@ -1,11 +1,10 @@
 const TYPES = new Set([
   'official',
-  'github',
   'docs',
-  'video',
-  'article',
+  'forum',
   'school',
-  'roadmapsh',
+  'article',
+  'internal',
 ])
 
 export function parseTopic(raw) {
@@ -25,7 +24,7 @@ export function parseTopic(raw) {
     }
     if (inLearn && line.startsWith('## ')) inLearn = false
     if (inLearn) {
-      const m = line.match(/^- @(\w+)@\s+(.+?)\s+\|\s+(https?:\/\/\S+)\s*$/)
+      const m = line.match(/^- @(\w+)@\s+(.+?)\s+\|\s+((?:https?:\/\/|#\/)\S+)\s*$/)
       if (m && TYPES.has(m[1])) {
         resources.push({ type: m[1], title: m[2].trim(), url: m[3] })
         continue

@@ -1,7 +1,7 @@
 # bench start
 
-Honcho/Procfile: web, workers, redis, socketio, watch. This is development, not production.
+Procfile: web, workers, redis, socketio, watch. This is development, not production.
 
 ## Learn
 
-- @github@ frappe/bench | https://github.com/frappe/bench
+- @official@ Install and setup bench | https://docs.frappe.io/framework/user/en/tutorial/install-and-setup-bench

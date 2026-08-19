@@ -1,14 +1,14 @@
 {
   "nodes": [
     {
-      "id": "g-language",
+      "id": "g-1-language",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 20
       },
       "data": {
-        "label": "Language"
+        "label": "1. Language"
       }
     },
     {
@@ -19,7 +19,7 @@
         "y": 56
       },
       "data": {
-        "label": "ES modules and bundling"
+        "label": "Modules and bench build"
       }
     },
     {
@@ -34,14 +34,14 @@
       }
     },
     {
-      "id": "g-desk",
+      "id": "g-2-desk",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 160
       },
       "data": {
-        "label": "Desk"
+        "label": "2. Desk"
       }
     },
     {
@@ -63,7 +63,7 @@
         "y": 196
       },
       "data": {
-        "label": "frappe namespace"
+        "label": "frappe.call and Desk APIs"
       }
     }
   ],

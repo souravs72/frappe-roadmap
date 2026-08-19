@@ -1,7 +1,8 @@
 # easy-install.py
 
-Used by Helpdesk and others for a first server. Still learn bench for debugging.
+Documented for Helpdesk and similar. You still need bench to debug a failed migrate.
 
 ## Learn
 
-- @official@ Helpdesk install | https://docs.frappe.io/helpdesk
+- @official@ Helpdesk first steps | https://docs.frappe.io/helpdesk/your-first-steps-with-frappe-helpdesk
+- @official@ Bench commands | https://docs.frappe.io/framework/user/en/bench/bench-commands

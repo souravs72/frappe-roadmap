@@ -1,7 +1,8 @@
 # SPA on a Frappe site
 
-CSRF and cookies still apply. Build with the app vite/yarn setup, then bench build.
+Build with the app vite/yarn script, then bench build --app. Users hit /helpdesk (etc.), not /desk, for that product.
 
 ## Learn
 
-- @official@ Vue inside Desk | https://docs.frappe.io/framework/using-vue-inside-a-desk-page
+- @official@ Using Vue inside a Desk page | https://docs.frappe.io/framework/using-vue-inside-a-desk-page
+- @official@ Helpdesk first steps | https://docs.frappe.io/helpdesk/your-first-steps-with-frappe-helpdesk

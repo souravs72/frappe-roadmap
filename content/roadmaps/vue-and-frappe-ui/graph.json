@@ -1,14 +1,14 @@
 {
   "nodes": [
     {
-      "id": "g-vue",
+      "id": "g-1-vue-3",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 20
       },
       "data": {
-        "label": "Vue"
+        "label": "1. Vue 3"
       }
     },
     {
@@ -19,7 +19,7 @@
         "y": 56
       },
       "data": {
-        "label": "Vue 3 basics"
+        "label": "Vue 3 and SFCs"
       }
     },
     {
@@ -34,14 +34,14 @@
       }
     },
     {
-      "id": "g-frappe-ui",
+      "id": "g-2-frappe-ui",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 160
       },
       "data": {
-        "label": "Frappe UI"
+        "label": "2. Frappe UI"
       }
     },
     {
@@ -52,7 +52,7 @@
         "y": 196
       },
       "data": {
-        "label": "Frappe UI library"
+        "label": "Frappe UI components"
       }
     },
     {

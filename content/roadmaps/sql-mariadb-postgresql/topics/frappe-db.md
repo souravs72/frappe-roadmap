@@ -1,6 +1,6 @@
 # frappe.db API
 
-get_value, get_all, sql with placeholders. Parameterize always.
+get_value, get_all, parameterized sql. Never interpolate user input. Use qb for joins get_all cannot express.
 
 ## Learn
 

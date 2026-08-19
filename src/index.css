@@ -43,3 +43,19 @@ body,
 a {
   color: var(--accent-2);
 }
+
+.topic-body p {
+  margin: 0 0 0.75rem;
+}
+.topic-body h3 {
+  margin: 1rem 0 0.4rem;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.topic-body ul,
+.topic-body ol {
+  margin: 0 0 0.75rem 1.1rem;
+}
+.topic-body code {
+  font-size: 0.85em;
+}

@@ -3,6 +3,6 @@
   "title": "SQL for Frappe",
   "type": "skill",
   "version": "v16",
-  "summary": "MariaDB and PostgreSQL as Frappe actually uses them.",
+  "summary": "MariaDB and PostgreSQL the way Frappe uses them.",
   "order": 13
 }

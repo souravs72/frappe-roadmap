@@ -2,6 +2,7 @@
 
 Interactive developer roadmaps for **Frappe v16**: bench, Framework, ERPNext, HRMS, LMS, Helpdesk, plus the Python / JavaScript / Vue / SQL / Redis / print / Linux / Docker skills those apps actually need.
 
+Lessons are original and hosted in this app. Learn links go to exact pages on docs.frappe.io, language/runtime docs, discuss.frappe.io, or other maps on this site.
 
 ## Use it
 
@@ -18,8 +19,8 @@ Open the local URL Vite prints. Maps are under `#/r/<slug>`.
 
 | Slug | Kind |
 | --- | --- |
-| `frappe-developer` | Role path |
-| `python-for-frappe` | Skill (links to roadmap.sh/python) |
+| `frappe-developer` | Role path (numbered groups) |
+| `python-for-frappe` | Skill |
 | `javascript-for-frappe` | Skill |
 | `vue-and-frappe-ui` | Skill |
 | `sql-mariadb-postgresql` | Skill |
@@ -35,7 +36,7 @@ Open the local URL Vite prints. Maps are under `#/r/<slug>`.
 | `lms` | Frappe LMS |
 | `helpdesk` | Frappe Helpdesk |
 
-Sources: [docs.frappe.io](https://docs.frappe.io/framework), [frappe GitHub](https://github.com/frappe) `version-16`, [v16 migration wiki](https://github.com/frappe/frappe/wiki/Migrating-to-version-16).
+Edit maps in `scripts/data/`, then `pnpm seed`. Sources include [docs.frappe.io](https://docs.frappe.io/framework), the [v16 migration wiki](https://github.com/frappe/frappe/wiki/Migrating-to-version-16), and [discuss.frappe.io](https://discuss.frappe.io).
 
 ## Deploy
 
@@ -43,4 +44,4 @@ GitHub Pages builds from `main` with `VITE_BASE=/frappe-roadmap/`. Enable Pages 
 
 ## License
 
-MIT. Not affiliated with Frappe Technologies or roadmap.sh.
+MIT. Not affiliated with Frappe Technologies. See [NOTICE](NOTICE).

@@ -1,8 +1,10 @@
 # Type hints
 
-New Frappe code uses annotations. Learn Optional and list[] enough to read core on version-16.
+Annotations help editors and readers. Frappe core on v16 uses them widely. Learn list[str], X | None, and stop there until a whitelist payload is stable.
+
+Keep runtime behaviour in validate() and tests, not in the type checker.
 
 ## Learn
 
-- @github@ frappe/frappe version-16 | https://github.com/frappe/frappe/tree/version-16
-- @roadmapsh@ Python | https://roadmap.sh/python
+- @docs@ typing module | https://docs.python.org/3.14/library/typing.html
+- @official@ Python API | https://docs.frappe.io/framework/user/en/api/python

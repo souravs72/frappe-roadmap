@@ -3,6 +3,6 @@
   "title": "JavaScript for Frappe",
   "type": "skill",
   "version": "v16",
-  "summary": "Desk scripts, fetch, and the JS you need before Vue and Frappe UI.",
+  "summary": "Desk scripts, modules, and async calls. Lessons here; sources are MDN and Frappe client-script docs.",
   "order": 11
 }

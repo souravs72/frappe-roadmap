@@ -1,14 +1,14 @@
 {
   "nodes": [
     {
-      "id": "g-model",
+      "id": "g-1-model",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 20
       },
       "data": {
-        "label": "Model"
+        "label": "1. Model"
       }
     },
     {
@@ -56,14 +56,14 @@
       }
     },
     {
-      "id": "g-python",
+      "id": "g-2-python",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 160
       },
       "data": {
-        "label": "Python"
+        "label": "2. Python"
       }
     },
     {
@@ -111,14 +111,14 @@
       }
     },
     {
-      "id": "g-security",
+      "id": "g-3-security",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 300
       },
       "data": {
-        "label": "Security"
+        "label": "3. Security"
       }
     },
     {
@@ -155,14 +155,14 @@
       }
     },
     {
-      "id": "g-ui",
+      "id": "g-4-ui",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 440
       },
       "data": {
-        "label": "UI"
+        "label": "4. UI"
       }
     },
     {
@@ -210,14 +210,14 @@
       }
     },
     {
-      "id": "g-apis-and-jobs",
+      "id": "g-5-apis-and-jobs",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 580
       },
       "data": {
-        "label": "APIs and jobs"
+        "label": "5. APIs and jobs"
       }
     },
     {
@@ -265,14 +265,14 @@
       }
     },
     {
-      "id": "g-ship-quality",
+      "id": "g-6-ship-quality",
       "type": "groupLabel",
       "position": {
         "x": 16,
         "y": 720
       },
       "data": {
-        "label": "Ship quality"
+        "label": "6. Ship quality"
       }
     },
     {
